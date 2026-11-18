@@ -10,8 +10,6 @@
 | 開課單位 | 國立陽明交通大學（NYCU）CGI Lab |
 | 作業 | Lab 3：Proximal Policy Optimization (PPO) |
 
-作業題目、sample code（[lab03/src/](lab03/src/)）與評分方式都由課程提供，在此感謝授課教授與助教的指導。本 repo 是我個人的作業實作與實驗紀錄。
-
 ## 結果
 
 | 模型 | 步數 | seed 0~19 平均分數（greedy） | 最遠天數 |
