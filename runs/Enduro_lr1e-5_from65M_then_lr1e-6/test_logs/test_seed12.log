@@ -1,0 +1,11 @@
+# 2026-10-27 11:08:10  (cwd: src)
+# python test.py --exp-name Enduro_lr1e-5_from65M_then_lr1e-6 --ckpt ..\runs\Enduro_lr1e-5_from65M_then_lr1e-6\checkpoints\model_77830590_1533.pth --episodes 1 --seed 12
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
+[Powered by Stella]
+Loaded ..\runs\Enduro_lr1e-5_from65M_then_lr1e-6\checkpoints\model_77830590_1533.pth
+Episode: 1	Length: 26997	Total reward: 2339.00
+average score: 2339.0

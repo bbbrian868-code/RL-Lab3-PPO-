@@ -1,0 +1,860 @@
+### [supervisor] 2026-10-25 19:44:38 launch #0
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+{'gpu': True, 'training_steps': 53007489.0, 'update_sample_count': 10000, 'discount_factor_gamma': 0.99, 'discount_factor_lambda': 0.95, 'clip_epsilon': 0.2, 'max_gradient_norm': 0.5, 'batch_size': 128, 'logdir': 'C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr1e-5_from50M\\tb', 'update_ppo_epoch': 3, 'learning_rate': 1e-05, 'value_coefficient': 0.5, 'entropy_coefficient': 0.01, 'horizon': 128, 'env_id': 'ALE/Enduro-v5', 'eval_interval': 100, 'eval_episode': 3, 'eval_interval_steps': 500000, 'checkpoint_dir': 'C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr1e-5_from50M\\checkpoints', 'clip_reward': True, 'seed': 1, 'checkpoint_interval_steps': 200000}
+A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
+[Powered by Stella]
+C:\Users\User\Desktop\RL_Lab3_PPO\.venv\Lib\site-packages\gym\utils\passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Initialized from C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr2.5e-4_cont\checkpoints\branch_50M.pt: step 50007489, episode 6865
+Learning rate set to 1e-05
+[6655/10000][50014143/53007489]  episode: 6866  episode reward: 475.0  episode len: 6655
+Loss: 0.760533880970116				Surrogate Loss: -0.0017004441368373994				Value Loss: 1.552173321982801				Entropy: 1.3852337719426828			
+Approx KL: 0.00107	Clip Fraction: 0.0064	SPS: 247.8
+[3304/10000][50020791/53007489]  episode: 6867  episode reward: 493.0  episode len: 6649
+Loss: 0.6418848774530909				Surrogate Loss: -0.001227922256819258				Value Loss: 1.3133438684956995				Entropy: 1.3559133471202471			
+Approx KL: 0.00189	Clip Fraction: 0.0168	SPS: 247.2
+[6613/10000][50034099/53007489]  episode: 6868  episode reward: 953.0  episode len: 13309
+Loss: 0.7973244482106677				Surrogate Loss: -0.001330811636865031				Value Loss: 1.6231474219521667				Entropy: 1.2918449375307117			
+Approx KL: 0.00154	Clip Fraction: 0.0137	SPS: 247.0
+[9918/10000][50047403/53007489]  episode: 6869  episode reward: 1004.0  episode len: 13305
+Loss: 0.9037474188280091				Surrogate Loss: -0.002469637012992325				Value Loss: 1.8357503513801912				Entropy: 1.1658117897129208			
+Approx KL: 0.00096	Clip Fraction: 0.0058	SPS: 246.6
+[9902/10000][50057386/53007489]  episode: 6870  episode reward: 785.0  episode len: 9984
+Loss: 1.0164091044459391				Surrogate Loss: -0.0017953122806048112				Value Loss: 2.062911349009127				Entropy: 1.3251257985975735			
+Approx KL: 0.00082	Clip Fraction: 0.0059	SPS: 246.4
+[9882/10000][50067365/53007489]  episode: 6871  episode reward: 797.0  episode len: 9980
+Loss: 1.0219901221424963				Surrogate Loss: -0.00011978087458958592				Value Loss: 2.070138503701354				Entropy: 1.2959352454509028			
+Approx KL: 0.00108	Clip Fraction: 0.0080	SPS: 246.2
+Loss: 0.7011527951409572				Surrogate Loss: -0.0029808772953043945				Value Loss: 1.4348041439856396				Entropy: 1.3268403564151516			
+Approx KL: 0.00132	Clip Fraction: 0.0116	SPS: 245.8
+[3189/10000][50080671/53007489]  episode: 6872  episode reward: 1032.0  episode len: 13307
+Loss: 0.7454179508767055				Surrogate Loss: -0.001838376736173308				Value Loss: 1.5199382199433327				Entropy: 1.2712784248939362			
+Approx KL: 0.00130	Clip Fraction: 0.0118	SPS: 245.7
+[3172/10000][50090653/53007489]  episode: 6873  episode reward: 786.0  episode len: 9983
+[9824/10000][50097304/53007489]  episode: 6874  episode reward: 477.0  episode len: 6652
+Loss: 1.0931321475648137				Surrogate Loss: -0.001900104748760276				Value Loss: 2.2157656119247457				Entropy: 1.2850551967467787			
+Approx KL: 0.00172	Clip Fraction: 0.0154	SPS: 245.6
+[9808/10000][50107287/53007489]  episode: 6875  episode reward: 752.0  episode len: 9984
+Loss: 0.8115618025640984				Surrogate Loss: -0.001782636848175489				Value Loss: 1.6532497298635054				Entropy: 1.3280424196293954			
+Approx KL: 0.00070	Clip Fraction: 0.0047	SPS: 245.6
+Loss: 0.7264347382599665				Surrogate Loss: -0.0019815422501553376				Value Loss: 1.4836786239208364				Entropy: 1.3423033932564639			
+Approx KL: 0.00133	Clip Fraction: 0.0124	SPS: 245.4
+[3119/10000][50120597/53007489]  episode: 6876  episode reward: 1046.0  episode len: 13311
+Loss: 0.7573150456231329				Surrogate Loss: -0.0030693002749988627				Value Loss: 1.5461488461677244				Entropy: 1.2690078334361057			
+Approx KL: 0.00180	Clip Fraction: 0.0164	SPS: 245.4
+[6425/10000][50133902/53007489]  episode: 6877  episode reward: 1014.0  episode len: 13306
+Loss: 0.6853729981938286				Surrogate Loss: -0.0014331898919719586				Value Loss: 1.3982720097380967				Entropy: 1.232981630870583			
+Approx KL: 0.00119	Clip Fraction: 0.0090	SPS: 245.4
+[9735/10000][50147211/53007489]  episode: 6878  episode reward: 1085.0  episode len: 13310
+Loss: 0.608187096941665				Surrogate Loss: -0.0006349165563402999				Value Loss: 1.240884583746112				Entropy: 1.1620278145796226			
+Approx KL: 0.00299	Clip Fraction: 0.0290	SPS: 245.1
+Loss: 0.4872475624610703				Surrogate Loss: -0.0025167990808369536				Value Loss: 1.0065106869260168				Entropy: 1.3490981936426656			
+Approx KL: 0.00096	Clip Fraction: 0.0077	SPS: 245.1
+[3040/10000][50160515/53007489]  episode: 6879  episode reward: 1066.0  episode len: 13305
+[9693/10000][50167167/53007489]  episode: 6880  episode reward: 480.0  episode len: 6653
+Loss: 0.9930959977332534				Surrogate Loss: -0.001227979992900076				Value Loss: 2.0137482626254655				Entropy: 1.2550150926691748			
+Approx KL: 0.00219	Clip Fraction: 0.0225	SPS: 247.2
+Loss: 0.5683231356933649				Surrogate Loss: -0.002185580636304179				Value Loss: 1.167240383553504				Entropy: 1.3111476114176828			
+Approx KL: 0.00144	Clip Fraction: 0.0125	SPS: 249.4
+[3003/10000][50180476/53007489]  episode: 6881  episode reward: 1025.0  episode len: 13310
+Loss: 0.9542820565510353				Surrogate Loss: -0.0014660767821115823				Value Loss: 1.936690701405252				Entropy: 1.2597218652660376			
+Approx KL: 0.00205	Clip Fraction: 0.0216	SPS: 251.4
+[6312/10000][50193784/53007489]  episode: 6882  episode reward: 982.0  episode len: 13309
+Loss: 0.7671803194850323				Surrogate Loss: -0.0017489182401720963				Value Loss: 1.5642186747011109				Entropy: 1.3180100114904212			
+Approx KL: 0.00140	Clip Fraction: 0.0135	SPS: 253.3
+[9617/10000][50207088/53007489]  episode: 6883  episode reward: 1046.0  episode len: 13305
+Loss: 0.7826680558708391				Surrogate Loss: -0.0018188280006471004				Value Loss: 1.5931167514373519				Entropy: 1.2071494132505074			
+Approx KL: 0.00250	Clip Fraction: 0.0267	SPS: 254.9
+Loss: 1.0492746186430715				Surrogate Loss: 2.254580496972523e-05				Value Loss: 2.123618342997061				Entropy: 1.2557095855773515			
+Approx KL: 0.00193	Clip Fraction: 0.0190	SPS: 256.5
+[6251/10000][50223721/53007489]  episode: 6884  episode reward: 1344.0  episode len: 16634
+Loss: 0.8401564231279585				Surrogate Loss: -0.0010530328304654624				Value Loss: 1.7060408397914066				Entropy: 1.1810964714245802			
+Approx KL: 0.00269	Clip Fraction: 0.0254	SPS: 257.9
+[9557/10000][50237026/53007489]  episode: 6885  episode reward: 1074.0  episode len: 13306
+Loss: 0.7513302494772909				Surrogate Loss: -0.002694256977843678				Value Loss: 1.531766672959802				Entropy: 1.1858831046548826			
+Approx KL: 0.00156	Clip Fraction: 0.0146	SPS: 259.2
+Loss: 0.9822749523211369				Surrogate Loss: -0.001247196317140764				Value Loss: 1.992343032385996				Entropy: 1.264936868598213			
+Approx KL: 0.00144	Clip Fraction: 0.0127	SPS: 260.4
+[2867/10000][50250335/53007489]  episode: 6886  episode reward: 1031.0  episode len: 13310
+Loss: 0.7455096247936601				Surrogate Loss: -0.001825145098095993				Value Loss: 1.520570759005082				Entropy: 1.29506096841118			
+Approx KL: 0.00106	Clip Fraction: 0.0085	SPS: 261.5
+[6178/10000][50263645/53007489]  episode: 6887  episode reward: 1042.0  episode len: 13311
+Loss: 1.0395747959822315				Surrogate Loss: -0.001391107989164364				Value Loss: 2.1062931368689264				Entropy: 1.2180666009140804			
+Approx KL: 0.00065	Clip Fraction: 0.0042	SPS: 262.5
+[9483/10000][50276949/53007489]  episode: 6888  episode reward: 1062.0  episode len: 13305
+Loss: 1.1252491968706984				Surrogate Loss: -0.0005210629304851073				Value Loss: 2.273845437991567				Entropy: 1.115246386449309			
+Approx KL: 0.00269	Clip Fraction: 0.0274	SPS: 263.5
+Loss: 0.7761512421566464				Surrogate Loss: -0.0011296848880504662				Value Loss: 1.580683701288049				Entropy: 1.3060922559154715			
+Approx KL: 0.00054	Clip Fraction: 0.0032	SPS: 264.4
+[2793/10000][50290258/53007489]  episode: 6889  episode reward: 1028.0  episode len: 13310
+Loss: 0.8049888916289124				Surrogate Loss: -0.002285863742661633				Value Loss: 1.640536742028323				Entropy: 1.2993616444231848			
+Approx KL: 0.00112	Clip Fraction: 0.0095	SPS: 265.2
+[6103/10000][50303567/53007489]  episode: 6890  episode reward: 1068.0  episode len: 13310
+Loss: 0.8586832495853781				Surrogate Loss: -0.0021210158752963393				Value Loss: 1.7460066003857315				Entropy: 1.2199032234597338			
+Approx KL: 0.00214	Clip Fraction: 0.0225	SPS: 265.9
+[9412/10000][50316875/53007489]  episode: 6891  episode reward: 1093.0  episode len: 13309
+Loss: 0.7966465221801695				Surrogate Loss: -0.0011586578652846592				Value Loss: 1.6178859481423713				Entropy: 1.1137793246171568			
+Approx KL: 0.00184	Clip Fraction: 0.0179	SPS: 266.6
+Loss: 0.675036815519613				Surrogate Loss: -0.002047300579131554				Value Loss: 1.3806221557318379				Entropy: 1.3226959617038354			
+Approx KL: 0.00182	Clip Fraction: 0.0175	SPS: 267.3
+[2718/10000][50330180/53007489]  episode: 6892  episode reward: 1018.0  episode len: 13306
+Loss: 0.6469299753963712				Surrogate Loss: -0.0015769547412501025				Value Loss: 1.3235520252568256				Entropy: 1.3269081658495903			
+Approx KL: 0.00181	Clip Fraction: 0.0153	SPS: 267.9
+Loss: 0.6857737543493785				Surrogate Loss: -0.0020423656640057852				Value Loss: 1.3963703844565492				Entropy: 1.0369071973925394			
+Approx KL: 0.00190	Clip Fraction: 0.0181	SPS: 268.6
+[2683/10000][50350144/53007489]  episode: 6893  episode reward: 1647.0  episode len: 19965
+Loss: 1.0388951550614376				Surrogate Loss: -0.0022552256989036763				Value Loss: 2.1075799623792113				Entropy: 1.263960275324725			
+Approx KL: 0.00241	Clip Fraction: 0.0271	SPS: 269.2
+[5992/10000][50363452/53007489]  episode: 6894  episode reward: 1064.0  episode len: 13309
+Loss: 0.7788386948062144				Surrogate Loss: -0.0015695853460118644				Value Loss: 1.5854350099788532				Entropy: 1.2309225332019396			
+Approx KL: 0.00082	Clip Fraction: 0.0058	SPS: 269.7
+[9298/10000][50376757/53007489]  episode: 6895  episode reward: 1033.0  episode len: 13306
+Loss: 1.1554748282490206				Surrogate Loss: -0.0009681914702797885				Value Loss: 2.335053925506574				Entropy: 1.1083942640237672			
+Approx KL: 0.00075	Clip Fraction: 0.0052	SPS: 270.3
+Loss: 0.8868423339122108				Surrogate Loss: -0.0017456213458953433				Value Loss: 1.8033082247662744				Entropy: 1.306615566368053			
+Approx KL: 0.00095	Clip Fraction: 0.0076	SPS: 270.8
+[2604/10000][50390062/53007489]  episode: 6896  episode reward: 1009.0  episode len: 13306
+Loss: 0.8952052074758531				Surrogate Loss: -0.0012965921877630853				Value Loss: 1.818386157417666				Entropy: 1.2691275894282814			
+Approx KL: 0.00173	Clip Fraction: 0.0172	SPS: 271.3
+[5914/10000][50403371/53007489]  episode: 6897  episode reward: 1043.0  episode len: 13310
+Loss: 0.7683312879594575				Surrogate Loss: -0.002336343090718238				Value Loss: 1.566183362801956				Entropy: 1.242404897401722			
+Approx KL: 0.00222	Clip Fraction: 0.0230	SPS: 271.7
+[9220/10000][50416676/53007489]  episode: 6898  episode reward: 1065.0  episode len: 13306
+Loss: 0.8661581605616866				Surrogate Loss: -0.001465937832378746				Value Loss: 1.7595324015804694				Entropy: 1.2142104360355417			
+Approx KL: 0.00094	Clip Fraction: 0.0072	SPS: 272.2
+[9199/10000][50426654/53007489]  episode: 6899  episode reward: 781.0  episode len: 9979
+Loss: 1.046604128537713				Surrogate Loss: -0.0015557977105569174				Value Loss: 2.122631790596422				Entropy: 1.3155967642976492			
+Approx KL: 0.00113	Clip Fraction: 0.0109	SPS: 272.6
+[5854/10000][50433308/53007489]  episode: 6900  episode reward: 492.0  episode len: 6655
+Loss: 0.8910022568215469				Surrogate Loss: -0.0020824085665744237				Value Loss: 1.8133794991411853				Entropy: 1.3605084674382404			
+Approx KL: 0.00064	Clip Fraction: 0.0045	SPS: 273.0
+[9160/10000][50446613/53007489]  episode: 6901  episode reward: 1032.0  episode len: 13306
+Loss: 0.8443612134147178				Surrogate Loss: -0.002662695251103736				Value Loss: 1.7186924474431888				Entropy: 1.2322315532594057			
+Approx KL: 0.00159	Clip Fraction: 0.0149	SPS: 273.4
+[9141/10000][50456593/53007489]  episode: 6902  episode reward: 793.0  episode len: 9981
+Loss: 1.3870578267159652				Surrogate Loss: -0.0010202708180555842				Value Loss: 2.801194716700803				Entropy: 1.2519262268614486			
+Approx KL: 0.00141	Clip Fraction: 0.0123	SPS: 273.7
+Loss: 1.0529299455042849				Surrogate Loss: -0.002008774766994977				Value Loss: 2.1357264503259707				Entropy: 1.2924503026703265			
+Approx KL: 0.00090	Clip Fraction: 0.0078	SPS: 274.1
+[2447/10000][50469898/53007489]  episode: 6903  episode reward: 1043.0  episode len: 13306
+Loss: 0.763525740007905				Surrogate Loss: -0.002529769115621961				Value Loss: 1.5575381549814569				Entropy: 1.2713568756392004			
+Approx KL: 0.00141	Clip Fraction: 0.0121	SPS: 274.4
+[5757/10000][50483207/53007489]  episode: 6904  episode reward: 1053.0  episode len: 13310
+Loss: 1.017897856323724				Surrogate Loss: -0.0021294196610024806				Value Loss: 2.0633836648174118				Entropy: 1.1664554205153426			
+Approx KL: 0.00088	Clip Fraction: 0.0064	SPS: 274.8
+[9068/10000][50496517/53007489]  episode: 6905  episode reward: 1064.0  episode len: 13311
+Loss: 1.3176712205929422				Surrogate Loss: -0.0007985824540385635				Value Loss: 2.6597978894216676				Entropy: 1.142914140654078			
+Approx KL: 0.00119	Clip Fraction: 0.0098	SPS: 275.4
+Loss: 0.6643285722902568				Surrogate Loss: -0.0017814976034047458				Value Loss: 1.3588862157992783				Entropy: 1.3333036338950244			
+Approx KL: 0.00073	Clip Fraction: 0.0058	SPS: 276.1
+[2373/10000][50509821/53007489]  episode: 6906  episode reward: 1032.0  episode len: 13305
+==============================================
+Evaluating...
+episode 1 reward: 1092.0
+episode 2 reward: 1634.0
+episode 3 reward: 1074.0
+average score: 1266.6666666666667
+==============================================
+New best score 1266.6666666666667 at step 50509821, saved best.pth
+Loss: 0.9271899831278259				Surrogate Loss: -0.0018406441559486101				Value Loss: 1.884193654011978				Entropy: 1.3066200686545533			
+Approx KL: 0.00130	Clip Fraction: 0.0118	SPS: 259.4
+[2357/10000][50519804/53007489]  episode: 6907  episode reward: 789.0  episode len: 9984
+Loss: 1.2095223232684438				Surrogate Loss: -0.0006985987382902895				Value Loss: 2.4457719769094375				Entropy: 1.2665065192861034			
+Approx KL: 0.00296	Clip Fraction: 0.0312	SPS: 259.9
+[5665/10000][50533111/53007489]  episode: 6908  episode reward: 1077.0  episode len: 13308
+Loss: 0.7121704066544962				Surrogate Loss: -0.0029638835282242964				Value Loss: 1.4544758899288295				Entropy: 1.2103654800949444			
+Approx KL: 0.00188	Clip Fraction: 0.0158	SPS: 260.3
+[8976/10000][50546421/53007489]  episode: 6909  episode reward: 1054.0  episode len: 13311
+Loss: 0.8682663940027082				Surrogate Loss: -0.0005724031090653245				Value Loss: 1.7613800155197774				Entropy: 1.1851214265260475			
+Approx KL: 0.00172	Clip Fraction: 0.0166	SPS: 260.8
+Loss: 0.8901594547934308				Surrogate Loss: -0.0012952910461882835				Value Loss: 1.8093127640935676				Entropy: 1.3201639403603855			
+Approx KL: 0.00133	Clip Fraction: 0.0132	SPS: 261.2
+[2285/10000][50559729/53007489]  episode: 6910  episode reward: 1020.0  episode len: 13309
+Loss: 1.5206878586934922				Surrogate Loss: 0.00048532536138818185				Value Loss: 3.0650298056555423				Entropy: 1.2312368623132246			
+Approx KL: 0.00284	Clip Fraction: 0.0299	SPS: 261.7
+[5592/10000][50573035/53007489]  episode: 6911  episode reward: 1053.0  episode len: 13307
+Loss: 1.1858536178471597				Surrogate Loss: -0.0015447122022768547				Value Loss: 2.398902582043163				Entropy: 1.20529612907595			
+Approx KL: 0.00194	Clip Fraction: 0.0191	SPS: 262.1
+Loss: 1.0168941922415784				Surrogate Loss: -0.0019932536187303594				Value Loss: 2.059875015996979				Entropy: 1.1050062889054557			
+Approx KL: 0.00213	Clip Fraction: 0.0210	SPS: 262.5
+[2230/10000][50589672/53007489]  episode: 6912  episode reward: 1297.0  episode len: 16638
+Loss: 1.2694020915878201				Surrogate Loss: -0.0013554918829491846				Value Loss: 2.5665083072642174				Entropy: 1.2496567429932586			
+Approx KL: 0.00099	Clip Fraction: 0.0079	SPS: 262.9
+[8863/10000][50606304/53007489]  episode: 6913  episode reward: 1283.0  episode len: 16633
+Loss: 1.2902141214372487				Surrogate Loss: -0.0015821447934629056				Value Loss: 2.6050088962724707				Entropy: 1.0708184977786643			
+Approx KL: 0.00206	Clip Fraction: 0.0206	SPS: 263.2
+Loss: 0.856103579064093				Surrogate Loss: -0.0009179198090345068				Value Loss: 1.7402056058674087				Entropy: 1.3081304482068923			
+Approx KL: 0.00130	Clip Fraction: 0.0109	SPS: 263.6
+[5502/10000][50622942/53007489]  episode: 6914  episode reward: 1393.0  episode len: 16639
+Loss: 0.7031667467742934				Surrogate Loss: -0.0027575290086485713				Value Loss: 1.4350942701004088				Entropy: 1.1622861062945933			
+Approx KL: 0.00118	Clip Fraction: 0.0105	SPS: 264.0
+[8809/10000][50636248/53007489]  episode: 6915  episode reward: 1020.0  episode len: 13307
+Loss: 1.3519519281540862				Surrogate Loss: -0.002421641826371025				Value Loss: 2.7321217857987232				Entropy: 1.1687323874040065			
+Approx KL: 0.00063	Clip Fraction: 0.0040	SPS: 264.3
+Loss: 1.02272729296431				Surrogate Loss: -0.001512725690451713				Value Loss: 2.0738696462555017				Entropy: 1.2694801806814258			
+Approx KL: 0.00099	Clip Fraction: 0.0087	SPS: 264.7
+[2121/10000][50649559/53007489]  episode: 6916  episode reward: 1047.0  episode len: 13312
+Loss: 0.9321665551551876				Surrogate Loss: -0.0012430191917597625				Value Loss: 1.891837904227606				Entropy: 1.2509379485675511			
+Approx KL: 0.00173	Clip Fraction: 0.0169	SPS: 265.0
+[8760/10000][50666197/53007489]  episode: 6917  episode reward: 1377.0  episode len: 16639
+Loss: 0.8401965967673343				Surrogate Loss: -0.002731438550194367				Value Loss: 1.7067598988567354				Entropy: 1.0451912803136882			
+Approx KL: 0.00151	Clip Fraction: 0.0134	SPS: 265.3
+Loss: 0.7304368146814824				Surrogate Loss: -0.0026731282267288907				Value Loss: 1.4926621017900072				Entropy: 1.3221107077161742			
+Approx KL: 0.00105	Clip Fraction: 0.0096	SPS: 265.6
+[2069/10000][50679505/53007489]  episode: 6918  episode reward: 1035.0  episode len: 13309
+Loss: 1.0035992745708864				Surrogate Loss: -0.0022045405404338145				Value Loss: 2.037135925034696				Entropy: 1.2764146726673498			
+Approx KL: 0.00129	Clip Fraction: 0.0113	SPS: 265.9
+[8704/10000][50696139/53007489]  episode: 6919  episode reward: 1337.0  episode len: 16635
+Loss: 0.8997245170679634				Surrogate Loss: -0.0013151204378152282				Value Loss: 1.824262140520515				Entropy: 1.109143613050206			
+Approx KL: 0.00198	Clip Fraction: 0.0179	SPS: 266.1
+Loss: 0.7549440734783861				Surrogate Loss: -0.0020247820634736033				Value Loss: 1.5405328923676815				Entropy: 1.3297591599317378			
+Approx KL: 0.00089	Clip Fraction: 0.0074	SPS: 266.4
+[2011/10000][50709445/53007489]  episode: 6920  episode reward: 996.0  episode len: 13307
+Loss: 1.2210565062029766				Surrogate Loss: -0.001538172178913599				Value Loss: 2.4705745839528532				Entropy: 1.2692611958238835			
+Approx KL: 0.00088	Clip Fraction: 0.0069	SPS: 266.7
+[8649/10000][50726082/53007489]  episode: 6921  episode reward: 1345.0  episode len: 16638
+Loss: 0.8614490310673858				Surrogate Loss: -0.0021704697963698355				Value Loss: 1.7491349181642428				Entropy: 1.0947952625717141			
+Approx KL: 0.00150	Clip Fraction: 0.0127	SPS: 267.0
+Loss: 0.7301859644272245				Surrogate Loss: -0.0021448025629379358				Value Loss: 1.4916070108671982				Entropy: 1.3472740156362033			
+Approx KL: 0.00059	Clip Fraction: 0.0041	SPS: 267.2
+[1961/10000][50739393/53007489]  episode: 6922  episode reward: 1064.0  episode len: 13312
+Loss: 0.7342860847264843				Surrogate Loss: -0.0025195479607783198				Value Loss: 1.4991350578529252				Entropy: 1.2761899220059698			
+Approx KL: 0.00139	Clip Fraction: 0.0134	SPS: 267.5
+[5270/10000][50752701/53007489]  episode: 6923  episode reward: 1046.0  episode len: 13309
+Loss: 0.7624846850613437				Surrogate Loss: -0.001772386566918302				Value Loss: 1.5539256502041263				Entropy: 1.270575227699324			
+Approx KL: 0.00083	Clip Fraction: 0.0053	SPS: 267.8
+[8577/10000][50766007/53007489]  episode: 6924  episode reward: 1031.0  episode len: 13307
+Loss: 1.0797154545125227				Surrogate Loss: -0.0020759542877259512				Value Loss: 2.187333947813106				Entropy: 1.1875567525777095			
+Approx KL: 0.00119	Clip Fraction: 0.0110	SPS: 268.0
+Loss: 1.0571995941680707				Surrogate Loss: -0.0019155440565969775				Value Loss: 2.1438704628939913				Entropy: 1.2820094107437536			
+Approx KL: 0.00099	Clip Fraction: 0.0089	SPS: 268.3
+[1889/10000][50779318/53007489]  episode: 6925  episode reward: 1064.0  episode len: 13312
+Loss: 0.9051164644470087				Surrogate Loss: -0.002042455917770372				Value Loss: 1.839804377063029				Entropy: 1.274326617716412			
+Approx KL: 0.00104	Clip Fraction: 0.0088	SPS: 268.5
+[8524/10000][50795952/53007489]  episode: 6926  episode reward: 1343.0  episode len: 16635
+Loss: 1.0134426181138894				Surrogate Loss: -0.000358066834198407				Value Loss: 2.0495044806592233				Entropy: 1.0951555033358735			
+Approx KL: 0.00241	Clip Fraction: 0.0246	SPS: 268.8
+Loss: 1.0566236551627002				Surrogate Loss: -0.0004114130787930889				Value Loss: 2.13933296238694				Entropy: 1.263141335012666			
+Approx KL: 0.00223	Clip Fraction: 0.0217	SPS: 269.0
+[1834/10000][50809261/53007489]  episode: 6927  episode reward: 1010.0  episode len: 13310
+Loss: 1.0186248073424866				Surrogate Loss: -0.0008080697564752835				Value Loss: 2.0649827101396365				Entropy: 1.305847615418869			
+Approx KL: 0.00125	Clip Fraction: 0.0111	SPS: 269.2
+[1812/10000][50819238/53007489]  episode: 6928  episode reward: 785.0  episode len: 9978
+Loss: 1.0791355152701116				Surrogate Loss: -0.0008996826403900543				Value Loss: 2.1858520731012434				Entropy: 1.2890836602214266			
+Approx KL: 0.00123	Clip Fraction: 0.0098	SPS: 269.4
+[5122/10000][50832547/53007489]  episode: 6929  episode reward: 1036.0  episode len: 13310
+Loss: 1.0053379658462578				Surrogate Loss: -0.0014748186770659583				Value Loss: 2.039116983154502				Entropy: 1.2745709166810588			
+Approx KL: 0.00138	Clip Fraction: 0.0142	SPS: 269.7
+Loss: 0.6823961238391498				Surrogate Loss: -0.0015624770667918813				Value Loss: 1.3917458839652581				Entropy: 1.1914337529175034			
+Approx KL: 0.00233	Clip Fraction: 0.0219	SPS: 269.9
+[1756/10000][50849180/53007489]  episode: 6930  episode reward: 1326.0  episode len: 16634
+Loss: 0.9027909805925767				Surrogate Loss: -0.001384836196413498				Value Loss: 1.8330358864577259				Entropy: 1.2342130477252666			
+Approx KL: 0.00102	Clip Fraction: 0.0094	SPS: 270.1
+[8392/10000][50865815/53007489]  episode: 6931  episode reward: 1350.0  episode len: 16636
+Loss: 0.8769785972899184				Surrogate Loss: -0.002094622503320145				Value Loss: 1.780873690649865				Entropy: 1.1363626465766847			
+Approx KL: 0.00273	Clip Fraction: 0.0291	SPS: 270.3
+Loss: 0.9339052020414645				Surrogate Loss: -0.0013973317205821386				Value Loss: 1.8957404374762727				Entropy: 1.2567687335124875			
+Approx KL: 0.00145	Clip Fraction: 0.0145	SPS: 270.5
+[5026/10000][50882448/53007489]  episode: 6932  episode reward: 1371.0  episode len: 16634
+Loss: 0.851944760726442				Surrogate Loss: -0.0021658276779350154				Value Loss: 1.7308222121232142				Entropy: 1.130051907629782			
+Approx KL: 0.00205	Clip Fraction: 0.0206	SPS: 270.7
+[8335/10000][50895756/53007489]  episode: 6933  episode reward: 1061.0  episode len: 13309
+Loss: 1.03910625852839				Surrogate Loss: -0.002027872141351958				Value Loss: 2.1055673311642473				Entropy: 1.1649535852978015			
+Approx KL: 0.00182	Clip Fraction: 0.0185	SPS: 270.9
+Loss: 0.9863520936563013				Surrogate Loss: -0.001465288398236666				Value Loss: 2.0013633828800494				Entropy: 1.2864305771170874			
+Approx KL: 0.00127	Clip Fraction: 0.0120	SPS: 271.0
+[1641/10000][50909061/53007489]  episode: 6934  episode reward: 1088.0  episode len: 13306
+Loss: 0.9160795430621677				Surrogate Loss: -0.001796123965217601				Value Loss: 1.8611016732075856				Entropy: 1.2675169297561033			
+Approx KL: 0.00109	Clip Fraction: 0.0083	SPS: 271.2
+[4953/10000][50922372/53007489]  episode: 6935  episode reward: 1019.0  episode len: 13312
+Loss: 1.001799318611784				Surrogate Loss: -0.001915678971582767				Value Loss: 2.032791518345604				Entropy: 1.2680758893041395			
+Approx KL: 0.00115	Clip Fraction: 0.0095	SPS: 271.4
+Loss: 0.841152623554844				Surrogate Loss: -0.001449272918304693				Value Loss: 1.7097755493173694				Entropy: 1.2285876326349694			
+Approx KL: 0.00153	Clip Fraction: 0.0137	SPS: 271.6
+[4920/10000][50942338/53007489]  episode: 6936  episode reward: 1633.0  episode len: 19967
+Loss: 1.0562618653700455				Surrogate Loss: -0.0016435953211601092				Value Loss: 2.1395202582095365				Entropy: 1.1854666041716926			
+Approx KL: 0.00103	Clip Fraction: 0.0085	SPS: 271.7
+Loss: 0.7967754300592949				Surrogate Loss: -0.0016419782923916602				Value Loss: 1.620669005784456				Entropy: 1.1917094436484865			
+Approx KL: 0.00179	Clip Fraction: 0.0181	SPS: 271.9
+[1553/10000][50958970/53007489]  episode: 6937  episode reward: 1316.0  episode len: 16633
+Loss: 1.2858717604189414				Surrogate Loss: -0.0002801385371004794				Value Loss: 2.597600979379644				Entropy: 1.264859312676732			
+Approx KL: 0.00109	Clip Fraction: 0.0096	SPS: 272.0
+[4859/10000][50972275/53007489]  episode: 6938  episode reward: 1088.0  episode len: 13306
+Loss: 1.0339724261253007				Surrogate Loss: -0.0008297103948770316				Value Loss: 2.0931600685009326				Entropy: 1.1777897479656627			
+Approx KL: 0.00150	Clip Fraction: 0.0145	SPS: 272.2
+Loss: 1.0143636522112491				Surrogate Loss: -0.0013284987669954127				Value Loss: 2.0544426611498867				Entropy: 1.1529183920234343			
+Approx KL: 0.00218	Clip Fraction: 0.0232	SPS: 272.5
+[1497/10000][50988912/53007489]  episode: 6939  episode reward: 1305.0  episode len: 16638
+Loss: 1.0973397835320418				Surrogate Loss: -0.002707530839789524				Value Loss: 2.225817998425635				Entropy: 1.286168696550125			
+Approx KL: 0.00113	Clip Fraction: 0.0100	SPS: 272.9
+[8134/10000][51005548/53007489]  episode: 6940  episode reward: 1355.0  episode len: 16637
+Loss: 1.0368292215980104				Surrogate Loss: -0.0014114692620329544				Value Loss: 2.0979748460517866				Entropy: 1.0746733412957197			
+Approx KL: 0.00102	Clip Fraction: 0.0083	SPS: 273.4
+Loss: 1.0052257337427022				Surrogate Loss: -0.0025687726606710604				Value Loss: 2.041506835659819				Entropy: 1.2958909634939577			
+Approx KL: 0.00081	Clip Fraction: 0.0063	SPS: 273.8
+[4773/10000][51022186/53007489]  episode: 6941  episode reward: 1351.0  episode len: 16639
+==============================================
+Evaluating...
+episode 1 reward: 1062.0
+episode 2 reward: 1397.0
+episode 3 reward: 1909.0
+average score: 1456.0
+==============================================
+New best score 1456.0 at step 51022186, saved best.pth
+Loss: 1.0381042159685439				Surrogate Loss: -0.001753596190933133				Value Loss: 2.103587168119721				Entropy: 1.1935768377706366			
+Approx KL: 0.00155	Clip Fraction: 0.0144	SPS: 263.8
+Loss: 1.2275681466700168				Surrogate Loss: -0.0013028391197131826				Value Loss: 2.4797973133819724				Entropy: 1.1027664378385824			
+Approx KL: 0.00176	Clip Fraction: 0.0156	SPS: 264.0
+[1412/10000][51038824/53007489]  episode: 6942  episode reward: 1267.0  episode len: 16639
+Loss: 1.0159154157288375				Surrogate Loss: -0.002034552884746121				Value Loss: 2.0609489466322715				Entropy: 1.2524503234914182			
+Approx KL: 0.00086	Clip Fraction: 0.0067	SPS: 264.3
+[8052/10000][51055463/53007489]  episode: 6943  episode reward: 1300.0  episode len: 16640
+Loss: 0.9787903913119218				Surrogate Loss: -0.0016677266039033614				Value Loss: 1.9844446641620008				Entropy: 1.1764215362454713			
+Approx KL: 0.00171	Clip Fraction: 0.0165	SPS: 264.5
+Loss: 1.143302731337002				Surrogate Loss: -0.0013133917800627532				Value Loss: 2.315030379391805				Entropy: 1.2899068410123529			
+Approx KL: 0.00325	Clip Fraction: 0.0340	SPS: 264.7
+[1357/10000][51068767/53007489]  episode: 6944  episode reward: 1029.0  episode len: 13305
+Loss: 1.0963329811534994				Surrogate Loss: -0.000907969883110532				Value Loss: 2.2197672166021047				Entropy: 1.2642657809403353			
+Approx KL: 0.00202	Clip Fraction: 0.0204	SPS: 264.9
+[4664/10000][51082073/53007489]  episode: 6945  episode reward: 1071.0  episode len: 13307
+Loss: 0.9923010440051567				Surrogate Loss: -0.0020146035274262535				Value Loss: 2.0140610254178855				Entropy: 1.2714863730884924			
+Approx KL: 0.00189	Clip Fraction: 0.0197	SPS: 265.1
+Loss: 0.8860456685632702				Surrogate Loss: -0.0008778785176139463				Value Loss: 1.7967603542473607				Entropy: 1.1456628926938643			
+Approx KL: 0.00281	Clip Fraction: 0.0302	SPS: 265.3
+[1299/10000][51098707/53007489]  episode: 6946  episode reward: 1384.0  episode len: 16635
+Loss: 1.3178374717093742				Surrogate Loss: -0.0015184428769137756				Value Loss: 2.6620897282916687				Entropy: 1.1688944335025475			
+Approx KL: 0.00087	Clip Fraction: 0.0072	SPS: 265.5
+[7938/10000][51115345/53007489]  episode: 6947  episode reward: 1284.0  episode len: 16639
+Loss: 1.1630010341561907				Surrogate Loss: -0.0014932192416681079				Value Loss: 2.350900359003777				Entropy: 1.0955930364534066			
+Approx KL: 0.00221	Clip Fraction: 0.0221	SPS: 265.7
+Loss: 1.1765561883626279				Surrogate Loss: -0.001722042425622474				Value Loss: 2.380736036337812				Entropy: 1.2089778714722499			
+Approx KL: 0.00207	Clip Fraction: 0.0210	SPS: 265.9
+[4578/10000][51131984/53007489]  episode: 6948  episode reward: 1398.0  episode len: 16640
+Loss: 0.8206472160902807				Surrogate Loss: -0.0023668154318260055				Value Loss: 1.6702689761737382				Entropy: 1.2120456591248052			
+Approx KL: 0.00132	Clip Fraction: 0.0120	SPS: 266.1
+[7888/10000][51145293/53007489]  episode: 6949  episode reward: 1043.0  episode len: 13310
+Loss: 1.3632821784723765				Surrogate Loss: -0.0016828497121408742				Value Loss: 2.7526787247264046				Entropy: 1.1374330585274488			
+Approx KL: 0.00226	Clip Fraction: 0.0223	SPS: 266.3
+Loss: 0.9315488068414753				Surrogate Loss: -0.0013108446924885227				Value Loss: 1.892035907630299				Entropy: 1.3158303042512092			
+Approx KL: 0.00139	Clip Fraction: 0.0144	SPS: 266.5
+[4523/10000][51161927/53007489]  episode: 6950  episode reward: 1345.0  episode len: 16635
+Loss: 0.9623836850788281				Surrogate Loss: -0.0028050465989119724				Value Loss: 1.9537395231756483				Entropy: 1.1681032935898699			
+Approx KL: 0.00068	Clip Fraction: 0.0046	SPS: 266.7
+Loss: 0.861967026397473				Surrogate Loss: -0.0003040564154215463				Value Loss: 1.749018227660289				Entropy: 1.2238032472784655			
+Approx KL: 0.00241	Clip Fraction: 0.0260	SPS: 266.9
+[1160/10000][51178563/53007489]  episode: 6951  episode reward: 1283.0  episode len: 16637
+Loss: 0.9847562894295797				Surrogate Loss: -0.0023857594897248504				Value Loss: 2.0005397148150705				Entropy: 1.312780945743451			
+Approx KL: 0.00096	Clip Fraction: 0.0088	SPS: 267.1
+[7794/10000][51195196/53007489]  episode: 6952  episode reward: 1348.0  episode len: 16634
+Loss: 0.9981507985604073				Surrogate Loss: -0.000518361551904635				Value Loss: 2.019534912738784				Entropy: 1.1098296974315784			
+Approx KL: 0.00211	Clip Fraction: 0.0214	SPS: 267.3
+Loss: 1.6614967603399273				Surrogate Loss: -0.0009712891853929958				Value Loss: 3.3487591561673637				Entropy: 1.1911530629433602			
+Approx KL: 0.00169	Clip Fraction: 0.0164	SPS: 267.4
+[4433/10000][51211834/53007489]  episode: 6953  episode reward: 1399.0  episode len: 16639
+Loss: 0.8214832580239949				Surrogate Loss: -0.002569475243051566				Value Loss: 1.6710491397825382				Entropy: 1.1471839065151328			
+Approx KL: 0.00151	Clip Fraction: 0.0137	SPS: 267.6
+[4417/10000][51221817/53007489]  episode: 6954  episode reward: 759.0  episode len: 9984
+Loss: 1.416797239319853				Surrogate Loss: -0.001769760680449356				Value Loss: 2.862096455076816				Entropy: 1.248122548754668			
+Approx KL: 0.00107	Clip Fraction: 0.0087	SPS: 267.8
+Loss: 1.063944210356755				Surrogate Loss: -0.00023772506787769873				Value Loss: 2.150616644269807				Entropy: 1.1126385553230873			
+Approx KL: 0.00193	Clip Fraction: 0.0193	SPS: 268.0
+[1050/10000][51238449/53007489]  episode: 6955  episode reward: 1376.0  episode len: 16633
+Loss: 0.9262592627767842				Surrogate Loss: -0.002122614759000764				Value Loss: 1.8812047034029806				Entropy: 1.2220476236384392			
+Approx KL: 0.00167	Clip Fraction: 0.0171	SPS: 268.1
+Loss: 1.2108210141848488				Surrogate Loss: 0.0008900926685244735				Value Loss: 2.441848361858904				Entropy: 1.0993260005951488			
+Approx KL: 0.00335	Clip Fraction: 0.0320	SPS: 268.3
+[1013/10000][51258411/53007489]  episode: 6956  episode reward: 1590.0  episode len: 19963
+Loss: 1.0270789296686134				Surrogate Loss: -0.0008673406837563224				Value Loss: 2.0810415605431425				Entropy: 1.257451061545342			
+Approx KL: 0.00153	Clip Fraction: 0.0138	SPS: 268.5
+[7653/10000][51275050/53007489]  episode: 6957  episode reward: 1399.0  episode len: 16640
+Loss: 1.0441553425934818				Surrogate Loss: -0.0011569766931745602				Value Loss: 2.113013931455211				Entropy: 1.1194646239909491			
+Approx KL: 0.00314	Clip Fraction: 0.0323	SPS: 268.6
+Loss: 1.1034249117002688				Surrogate Loss: 0.0001592801011337595				Value Loss: 2.2318759969350737				Entropy: 1.2672370606658356			
+Approx KL: 0.00187	Clip Fraction: 0.0198	SPS: 268.8
+[4286/10000][51291682/53007489]  episode: 6958  episode reward: 1328.0  episode len: 16633
+Loss: 0.9597928343530522				Surrogate Loss: -0.0025188990433825135				Value Loss: 1.9497454181175184				Entropy: 1.256097479364069			
+Approx KL: 0.00079	Clip Fraction: 0.0059	SPS: 268.9
+[7595/10000][51304990/53007489]  episode: 6959  episode reward: 1079.0  episode len: 13309
+Loss: 1.2566556732316645				Surrogate Loss: -0.0015975954186324475				Value Loss: 2.54079020507763				Entropy: 1.2141834409272658			
+Approx KL: 0.00093	Clip Fraction: 0.0069	SPS: 269.1
+Loss: 0.988690565344775				Surrogate Loss: -0.0012931795560747073				Value Loss: 2.0060015784758107				Entropy: 1.301704488248831			
+Approx KL: 0.00132	Clip Fraction: 0.0130	SPS: 269.2
+[4233/10000][51321627/53007489]  episode: 6960  episode reward: 1378.0  episode len: 16638
+Loss: 0.9875383334787604				Surrogate Loss: -0.002362368162103068				Value Loss: 2.002780947225291				Entropy: 1.148976946766507			
+Approx KL: 0.00180	Clip Fraction: 0.0174	SPS: 269.4
+Loss: 1.3667037642458757				Surrogate Loss: -0.0003305922286063501				Value Loss: 2.75669979307853				Entropy: 1.1315544249052487			
+Approx KL: 0.00168	Clip Fraction: 0.0165	SPS: 269.5
+[872/10000][51338265/53007489]  episode: 6961  episode reward: 1365.0  episode len: 16639
+Loss: 1.1680240868467722				Surrogate Loss: -0.001563608073094465				Value Loss: 2.364376134066413				Entropy: 1.260036914662684			
+Approx KL: 0.00063	Clip Fraction: 0.0038	SPS: 269.7
+[4180/10000][51351572/53007489]  episode: 6962  episode reward: 1051.0  episode len: 13308
+Loss: 1.2176804867150777				Surrogate Loss: -0.0013208930340174697				Value Loss: 2.462372737299056				Entropy: 1.2184992258301086			
+Approx KL: 0.00106	Clip Fraction: 0.0102	SPS: 269.8
+Loss: 0.9460893040029156				Surrogate Loss: -0.0004850562367850905				Value Loss: 1.9171559467461687				Entropy: 1.2003617744725272			
+Approx KL: 0.00407	Clip Fraction: 0.0417	SPS: 270.0
+[819/10000][51368210/53007489]  episode: 6963  episode reward: 1394.0  episode len: 16639
+Loss: 1.0705114189280411				Surrogate Loss: -0.0006749269451547991				Value Loss: 2.1665253237263733				Entropy: 1.2076319571612204			
+Approx KL: 0.00192	Clip Fraction: 0.0194	SPS: 270.1
+[4124/10000][51381514/53007489]  episode: 6964  episode reward: 1081.0  episode len: 13305
+Loss: 1.037387680919935				Surrogate Loss: -0.0021870958051474353				Value Loss: 2.1035963306323886				Entropy: 1.2223382580272009			
+Approx KL: 0.00158	Clip Fraction: 0.0157	SPS: 270.3
+[7433/10000][51394822/53007489]  episode: 6965  episode reward: 1093.0  episode len: 13309
+Loss: 0.9141159058542694				Surrogate Loss: -0.0005829951580557719				Value Loss: 1.8544242478353523				Entropy: 1.251322538196072			
+Approx KL: 0.00171	Clip Fraction: 0.0180	SPS: 270.4
+Loss: 1.265170581455469				Surrogate Loss: -0.0008811616444338918				Value Loss: 2.5556312287312233				Entropy: 1.1763868720094701			
+Approx KL: 0.00173	Clip Fraction: 0.0171	SPS: 270.5
+[4072/10000][51411460/53007489]  episode: 6966  episode reward: 1303.0  episode len: 16639
+Loss: 1.1904016180726276				Surrogate Loss: -5.81980834240698e-05				Value Loss: 2.405130182857036				Entropy: 1.2105275279539593			
+Approx KL: 0.00241	Clip Fraction: 0.0260	SPS: 270.7
+[7382/10000][51424769/53007489]  episode: 6967  episode reward: 1084.0  episode len: 13310
+Loss: 1.12288478516374				Surrogate Loss: -0.002071663550862862				Value Loss: 2.2735071108532385				Entropy: 1.1797107575748993			
+Approx KL: 0.00147	Clip Fraction: 0.0157	SPS: 270.8
+Loss: 1.2896503599448885				Surrogate Loss: -0.0016773464409528265				Value Loss: 2.6058020934247623				Entropy: 1.157333700796786			
+Approx KL: 0.00077	Clip Fraction: 0.0057	SPS: 270.9
+[4021/10000][51441407/53007489]  episode: 6968  episode reward: 1391.0  episode len: 16639
+Loss: 0.9779831307388501				Surrogate Loss: -0.0020718834548921713				Value Loss: 1.9834580155640325				Entropy: 1.1673991718949128			
+Approx KL: 0.00245	Clip Fraction: 0.0274	SPS: 271.0
+[7332/10000][51454717/53007489]  episode: 6969  episode reward: 1063.0  episode len: 13311
+Loss: 1.0390989418098344				Surrogate Loss: -0.0011538948321514028				Value Loss: 2.1050641142588793				Entropy: 1.2279221362425077			
+Approx KL: 0.00105	Clip Fraction: 0.0095	SPS: 271.2
+Loss: 1.082868543543407				Surrogate Loss: -0.0022449384359036558				Value Loss: 2.195208054819195				Entropy: 1.249054694586655			
+Approx KL: 0.00099	Clip Fraction: 0.0085	SPS: 271.3
+[638/10000][51468022/53007489]  episode: 6970  episode reward: 1053.0  episode len: 13306
+Loss: 1.1370754539473524				Surrogate Loss: -0.0017638953332030068				Value Loss: 2.302552139446841				Entropy: 1.2436718310648143			
+Approx KL: 0.00117	Clip Fraction: 0.0110	SPS: 271.4
+[7277/10000][51484660/53007489]  episode: 6971  episode reward: 1361.0  episode len: 16639
+Loss: 1.0797601651448863				Surrogate Loss: -0.0026055671723793513				Value Loss: 2.187527726958442				Entropy: 1.1398128924267428			
+Approx KL: 0.00153	Clip Fraction: 0.0141	SPS: 271.8
+Loss: 1.6071087164011164				Surrogate Loss: -0.0005636584024610708				Value Loss: 3.238381821620532				Entropy: 1.1518535894458186			
+Approx KL: 0.00279	Clip Fraction: 0.0274	SPS: 272.1
+[585/10000][51497967/53007489]  episode: 6972  episode reward: 1083.0  episode len: 13308
+Loss: 0.9526592838117699				Surrogate Loss: -0.0010559476724125618				Value Loss: 1.932246581720444				Entropy: 1.2408056053616414			
+Approx KL: 0.00095	Clip Fraction: 0.0086	SPS: 272.5
+Loss: 1.0088361644930417				Surrogate Loss: -0.0013113565090421533				Value Loss: 2.0402950000544156				Entropy: 0.9999976224241349			
+Approx KL: 0.00146	Clip Fraction: 0.0140	SPS: 272.8
+[547/10000][51517928/53007489]  episode: 6973  episode reward: 1677.0  episode len: 19962
+==============================================
+Evaluating...
+episode 1 reward: 1912.0
+episode 2 reward: 1373.0
+episode 3 reward: 1083.0
+average score: 1456.0
+==============================================
+Loss: 0.9384026571722455				Surrogate Loss: -0.0018129625708785326				Value Loss: 1.9063731436077047				Entropy: 1.2970953651206625			
+Approx KL: 0.00080	Clip Fraction: 0.0063	SPS: 266.3
+[3852/10000][51531232/53007489]  episode: 6974  episode reward: 1035.0  episode len: 13305
+Loss: 1.3292233233294204				Surrogate Loss: -0.0013549721776644162				Value Loss: 2.686060686538483				Entropy: 1.245204878983336			
+Approx KL: 0.00135	Clip Fraction: 0.0129	SPS: 266.4
+Loss: 1.2498443456413235				Surrogate Loss: -0.001843127988277448				Value Loss: 2.5244713613352867				Entropy: 1.0548208406968185			
+Approx KL: 0.00088	Clip Fraction: 0.0077	SPS: 266.6
+[490/10000][51547869/53007489]  episode: 6975  episode reward: 1363.0  episode len: 16638
+Loss: 0.995070519087359				Surrogate Loss: -0.001526688274974965				Value Loss: 2.018020613365341				Entropy: 1.2413101054010571			
+Approx KL: 0.00158	Clip Fraction: 0.0133	SPS: 266.7
+[3796/10000][51561174/53007489]  episode: 6976  episode reward: 1083.0  episode len: 13306
+Loss: 0.9773051169990224				Surrogate Loss: -0.0020727042896471555				Value Loss: 1.9833027152246048				Entropy: 1.2273536102787697			
+Approx KL: 0.00093	Clip Fraction: 0.0079	SPS: 266.8
+Loss: 1.2236377332976458				Surrogate Loss: -0.0021646593362229473				Value Loss: 2.474818781192563				Entropy: 1.1606999355702075			
+Approx KL: 0.00094	Clip Fraction: 0.0081	SPS: 267.0
+[429/10000][51577806/53007489]  episode: 6977  episode reward: 1335.0  episode len: 16633
+Loss: 0.8162587471262485				Surrogate Loss: -0.0007181237997638248				Value Loss: 1.66066886676011				Entropy: 1.335756288543739			
+Approx KL: 0.00088	Clip Fraction: 0.0082	SPS: 267.1
+[3740/10000][51591116/53007489]  episode: 6978  episode reward: 1070.0  episode len: 13311
+Loss: 1.1299804879661672				Surrogate Loss: -0.001842332281538036				Value Loss: 2.287727328249786				Entropy: 1.2040843012669316			
+Approx KL: 0.00132	Clip Fraction: 0.0127	SPS: 267.3
+Loss: 1.3514462756329428				Surrogate Loss: -0.0032134874631678683				Value Loss: 2.7313359700624065				Entropy: 1.1008221336374124			
+Approx KL: 0.00165	Clip Fraction: 0.0159	SPS: 267.4
+[378/10000][51607753/53007489]  episode: 6979  episode reward: 1324.0  episode len: 16638
+Loss: 0.955057178225181				Surrogate Loss: -0.001217134305976233				Value Loss: 1.9379902108791918				Entropy: 1.2720790758931328			
+Approx KL: 0.00087	Clip Fraction: 0.0071	SPS: 267.5
+[3690/10000][51621064/53007489]  episode: 6980  episode reward: 1039.0  episode len: 13312
+Loss: 0.9442452885982063				Surrogate Loss: -0.0015143141095528897				Value Loss: 1.9170463984852222				Entropy: 1.2763599873150653			
+Approx KL: 0.00226	Clip Fraction: 0.0248	SPS: 267.6
+Loss: 1.3091496020710003				Surrogate Loss: -0.0003738299454672995				Value Loss: 2.640350253830315				Entropy: 1.065169249894383			
+Approx KL: 0.00299	Clip Fraction: 0.0320	SPS: 267.8
+[3654/10000][51641027/53007489]  episode: 6981  episode reward: 1655.0  episode len: 19964
+Loss: 1.1676342681074865				Surrogate Loss: -0.0014847239958011354				Value Loss: 2.3619549237467585				Entropy: 1.1858471235843315			
+Approx KL: 0.00203	Clip Fraction: 0.0220	SPS: 267.9
+[6965/10000][51654337/53007489]  episode: 6982  episode reward: 1054.0  episode len: 13311
+Loss: 1.1721905946204734				Surrogate Loss: -0.0022703505086707444				Value Loss: 2.3730962896661656				Entropy: 1.2087197419723832			
+Approx KL: 0.00147	Clip Fraction: 0.0135	SPS: 268.0
+Loss: 1.3809300208855972				Surrogate Loss: -0.0017390243546938286				Value Loss: 2.788367856377544				Entropy: 1.151488094421266			
+Approx KL: 0.00248	Clip Fraction: 0.0250	SPS: 268.1
+[274/10000][51667645/53007489]  episode: 6983  episode reward: 1094.0  episode len: 13309
+Loss: 0.8147049165606911				Surrogate Loss: -0.0025215729027678884				Value Loss: 1.6605980900467487				Entropy: 1.3072556130969124			
+Approx KL: 0.00111	Clip Fraction: 0.0111	SPS: 268.3
+Loss: 1.1238793591641483				Surrogate Loss: -0.0024768031609181205				Value Loss: 2.272437363104164				Entropy: 0.9862517300396955			
+Approx KL: 0.00145	Clip Fraction: 0.0133	SPS: 268.4
+[240/10000][51687610/53007489]  episode: 6984  episode reward: 1638.0  episode len: 19966
+Loss: 0.9756264483301031				Surrogate Loss: -0.002030139525760595				Value Loss: 1.9812920782494354				Entropy: 1.2989449950541938			
+Approx KL: 0.00085	Clip Fraction: 0.0075	SPS: 268.5
+[3546/10000][51700915/53007489]  episode: 6985  episode reward: 1095.0  episode len: 13306
+Loss: 1.0056563728440615				Surrogate Loss: -0.0013838267237259907				Value Loss: 2.038865610605334				Entropy: 1.239260542962576			
+Approx KL: 0.00197	Clip Fraction: 0.0194	SPS: 268.6
+[6852/10000][51714220/53007489]  episode: 6986  episode reward: 1079.0  episode len: 13306
+Loss: 0.9042512323454401				Surrogate Loss: -0.0023988934431082723				Value Loss: 1.8385020014116735				Entropy: 1.2600872928895857			
+Approx KL: 0.00144	Clip Fraction: 0.0128	SPS: 268.7
+Loss: 1.261918743414131				Surrogate Loss: -0.002115584227499616				Value Loss: 2.5506184300471877				Entropy: 1.1274887671419693			
+Approx KL: 0.00092	Clip Fraction: 0.0082	SPS: 268.9
+[3492/10000][51730859/53007489]  episode: 6987  episode reward: 1382.0  episode len: 16640
+Loss: 0.9927992773858827				Surrogate Loss: -0.0018459957395099323				Value Loss: 2.014079510143362				Entropy: 1.2394480948083912			
+Approx KL: 0.00074	Clip Fraction: 0.0050	SPS: 269.0
+[6801/10000][51744167/53007489]  episode: 6988  episode reward: 1013.0  episode len: 13309
+Loss: 1.7564225793417747				Surrogate Loss: -0.0005418446304798276				Value Loss: 3.5369380958982055				Entropy: 1.1504627033235335			
+Approx KL: 0.00107	Clip Fraction: 0.0102	SPS: 269.1
+Loss: 1.0023749164624434				Surrogate Loss: 0.000409341692512951				Value Loss: 2.0282190115676033				Entropy: 1.2143931063384583			
+Approx KL: 0.00427	Clip Fraction: 0.0434	SPS: 269.2
+[3436/10000][51760801/53007489]  episode: 6989  episode reward: 1335.0  episode len: 16635
+Loss: 1.0649494867815859				Surrogate Loss: -0.0015695784652306826				Value Loss: 2.1576542917326003				Entropy: 1.2308077930516785			
+Approx KL: 0.00090	Clip Fraction: 0.0080	SPS: 269.3
+Loss: 1.2183485930102407				Surrogate Loss: 0.00018356818002203328				Value Loss: 2.4583133020568684				Entropy: 1.099162212130343			
+Approx KL: 0.00286	Clip Fraction: 0.0301	SPS: 269.4
+[3397/10000][51780761/53007489]  episode: 6990  episode reward: 1651.0  episode len: 19961
+Loss: 1.0516987782596643				Surrogate Loss: -0.001980793691110168				Value Loss: 2.1317219501718787				Entropy: 1.2181403179962615			
+Approx KL: 0.00060	Clip Fraction: 0.0041	SPS: 269.6
+[6708/10000][51794071/53007489]  episode: 6991  episode reward: 1064.0  episode len: 13311
+Loss: 1.059981006584331				Surrogate Loss: -0.0012317862909379722				Value Loss: 2.1478963064060865				Entropy: 1.273536030089577			
+Approx KL: 0.00201	Clip Fraction: 0.0176	SPS: 269.7
+Loss: 1.1843268715453112				Surrogate Loss: -0.001074708295208286				Value Loss: 2.3959320563035265				Entropy: 1.2564452680441485			
+Approx KL: 0.00201	Clip Fraction: 0.0199	SPS: 269.8
+[16/10000][51807378/53007489]  episode: 6992  episode reward: 1052.0  episode len: 13308
+Loss: 1.208268751665866				Surrogate Loss: -0.0016102803607650588				Value Loss: 2.445930929477921				Entropy: 1.3086430142351717			
+Approx KL: 0.00094	Clip Fraction: 0.0084	SPS: 269.9
+Loss: 1.2997750449631615				Surrogate Loss: -0.0024589863427720237				Value Loss: 2.6238083990263976				Entropy: 0.9670165323545853			
+Approx KL: 0.00176	Clip Fraction: 0.0168	SPS: 270.0
+[3312/10000][51830673/53007489]  episode: 6993  episode reward: 1836.0  episode len: 23296
+Loss: 1.351543982317042				Surrogate Loss: -0.0008861513189461641				Value Loss: 2.7312068581569195				Entropy: 1.3173284676229842			
+Approx KL: 0.00112	Clip Fraction: 0.0099	SPS: 270.1
+Loss: 1.2518499565889785				Surrogate Loss: -0.0019970882435022064				Value Loss: 2.528300278854775				Entropy: 1.0303096895547805			
+Approx KL: 0.00096	Clip Fraction: 0.0078	SPS: 270.2
+[3276/10000][51850636/53007489]  episode: 6994  episode reward: 1667.0  episode len: 19964
+Loss: 1.0083844402574897				Surrogate Loss: -0.000171051799345042				Value Loss: 2.0420889195368033				Entropy: 1.2488966719256869			
+Approx KL: 0.00139	Clip Fraction: 0.0134	SPS: 270.3
+[9909/10000][51867268/53007489]  episode: 6995  episode reward: 1283.0  episode len: 16633
+Loss: 1.2161101451668914				Surrogate Loss: 0.00041332973394848563				Value Loss: 2.4535755944109234				Entropy: 1.1090979911210526			
+Approx KL: 0.00240	Clip Fraction: 0.0230	SPS: 270.4
+Loss: 1.0740296583078186				Surrogate Loss: -0.00125304822701918				Value Loss: 2.1762186580345477				Entropy: 1.2826619057842485			
+Approx KL: 0.00187	Clip Fraction: 0.0185	SPS: 270.5
+[9871/10000][51887229/53007489]  episode: 6996  episode reward: 1675.0  episode len: 19962
+Loss: 1.3354451245132049				Surrogate Loss: -0.0018362248180318634				Value Loss: 2.6931315189361267				Entropy: 0.9284410117885886			
+Approx KL: 0.00165	Clip Fraction: 0.0166	SPS: 270.6
+Loss: 0.7540123220554487				Surrogate Loss: -0.0009424171858821818				Value Loss: 1.5374845285277319				Entropy: 1.378752216215784			
+Approx KL: 0.00112	Clip Fraction: 0.0087	SPS: 270.7
+[6510/10000][51903867/53007489]  episode: 6997  episode reward: 1342.0  episode len: 16639
+Loss: 0.9855486803476546				Surrogate Loss: -0.002132096870396969				Value Loss: 1.9993339715814313				Entropy: 1.198620693856697			
+Approx KL: 0.00126	Clip Fraction: 0.0126	SPS: 270.8
+Loss: 1.5601412335823743				Surrogate Loss: -0.0013973818174632896				Value Loss: 3.1467200338286765				Entropy: 1.1821398887700607			
+Approx KL: 0.00085	Clip Fraction: 0.0064	SPS: 270.9
+[9803/10000][51927159/53007489]  episode: 6998  episode reward: 1939.0  episode len: 23293
+Loss: 1.2343598677357006				Surrogate Loss: -0.00210610135964974				Value Loss: 2.491703733767846				Entropy: 0.9385900372460977			
+Approx KL: 0.00272	Clip Fraction: 0.0274	SPS: 271.0
+Loss: 1.488092187435716				Surrogate Loss: -0.0016448149445366103				Value Loss: 3.00463451817563				Entropy: 1.2580262063883176			
+Approx KL: 0.00117	Clip Fraction: 0.0094	SPS: 271.1
+[3112/10000][51940467/53007489]  episode: 6999  episode reward: 1073.0  episode len: 13309
+Loss: 1.2773598265159554				Surrogate Loss: -0.0015156942523983244				Value Loss: 2.5824831382917095				Entropy: 1.236604642093856			
+Approx KL: 0.00101	Clip Fraction: 0.0090	SPS: 271.2
+[6423/10000][51953777/53007489]  episode: 7000  episode reward: 1093.0  episode len: 13311
+Loss: 1.295513810359098				Surrogate Loss: -0.0013938926562412084				Value Loss: 2.6174692093107192				Entropy: 1.182689555027361			
+Approx KL: 0.00192	Clip Fraction: 0.0184	SPS: 271.3
+[9729/10000][51967082/53007489]  episode: 7001  episode reward: 1071.0  episode len: 13306
+Loss: 1.2921317203088785				Surrogate Loss: -0.0015724418702929858				Value Loss: 2.609722617271579				Entropy: 1.1157145228923235			
+Approx KL: 0.00111	Clip Fraction: 0.0075	SPS: 271.4
+Loss: 0.8924213699437876				Surrogate Loss: -0.0017615845332657053				Value Loss: 1.8151273848692524				Entropy: 1.3380737096158852			
+Approx KL: 0.00094	Clip Fraction: 0.0081	SPS: 271.7
+[3035/10000][51980387/53007489]  episode: 7002  episode reward: 1086.0  episode len: 13306
+Loss: 0.8852345042648575				Surrogate Loss: -0.001074089909068557				Value Loss: 1.7978051015051981				Entropy: 1.2593958898647708			
+Approx KL: 0.00143	Clip Fraction: 0.0139	SPS: 271.9
+Loss: 1.1769737160823954				Surrogate Loss: -0.0009245395036702178				Value Loss: 2.377417060734362				Entropy: 1.081027521698982			
+Approx KL: 0.00161	Clip Fraction: 0.0154	SPS: 272.2
+[6328/10000][52003679/53007489]  episode: 7003  episode reward: 1901.0  episode len: 23293
+Loss: 1.2980023788031074				Surrogate Loss: -0.00035102567697920363				Value Loss: 2.619670580942943				Entropy: 1.1481882423438565			
+Approx KL: 0.00224	Clip Fraction: 0.0230	SPS: 272.3
+Loss: 0.99701535470018				Surrogate Loss: -0.0011803777937848053				Value Loss: 2.0206551662233765				Entropy: 1.2131856751875			
+Approx KL: 0.00132	Clip Fraction: 0.0128	SPS: 272.4
+[2961/10000][52020311/53007489]  episode: 7004  episode reward: 1345.0  episode len: 16633
+==============================================
+Evaluating...
+episode 1 reward: 1067.0
+episode 2 reward: 1093.0
+episode 3 reward: 1670.0
+average score: 1276.6666666666667
+==============================================
+Loss: 1.2550313081436684				Surrogate Loss: -0.000971780332095675				Value Loss: 2.5372802950033266				Entropy: 1.2637058219460613			
+Approx KL: 0.00128	Clip Fraction: 0.0125	SPS: 268.0
+[6266/10000][52033615/53007489]  episode: 7005  episode reward: 1072.0  episode len: 13305
+Loss: 0.9959706797475245				Surrogate Loss: -0.0017679941332096425				Value Loss: 2.020775748632346				Entropy: 1.264920259783529			
+Approx KL: 0.00134	Clip Fraction: 0.0127	SPS: 268.1
+[6250/10000][52043598/53007489]  episode: 7006  episode reward: 780.0  episode len: 9984
+Loss: 1.528738616941901				Surrogate Loss: -0.0001597492753133216				Value Loss: 3.0825435442135083				Entropy: 1.2373407329906203			
+Approx KL: 0.00139	Clip Fraction: 0.0131	SPS: 268.2
+[9559/10000][52056906/53007489]  episode: 7007  episode reward: 1025.0  episode len: 13309
+Loss: 1.4595031515354941				Surrogate Loss: -0.0006923489141329109				Value Loss: 2.942874381480862				Entropy: 1.1241692490610313			
+Approx KL: 0.00140	Clip Fraction: 0.0132	SPS: 268.3
+Loss: 1.0766582046800712				Surrogate Loss: -0.0018746476817358877				Value Loss: 2.182717991782361				Entropy: 1.2826141204840487			
+Approx KL: 0.00097	Clip Fraction: 0.0076	SPS: 268.4
+[2869/10000][52070215/53007489]  episode: 7008  episode reward: 1072.0  episode len: 13310
+Loss: 1.1978923770873569				Surrogate Loss: -0.0018056214375353596				Value Loss: 2.424170903243122				Entropy: 1.238744895098816			
+Approx KL: 0.00101	Clip Fraction: 0.0073	SPS: 268.5
+Loss: 1.0613109880398173				Surrogate Loss: -0.002559351146125919				Value Loss: 2.1485432181032986				Entropy: 1.0401267892089119			
+Approx KL: 0.00241	Clip Fraction: 0.0239	SPS: 268.5
+[6162/10000][52093507/53007489]  episode: 7009  episode reward: 1863.0  episode len: 23293
+Loss: 1.2908643184933104				Surrogate Loss: -0.0026069267770164216				Value Loss: 2.610977597756347				Entropy: 1.2017553858085601			
+Approx KL: 0.00227	Clip Fraction: 0.0227	SPS: 268.6
+[9467/10000][52106811/53007489]  episode: 7010  episode reward: 1062.0  episode len: 13305
+Loss: 1.2634214084436655				Surrogate Loss: -0.0005050877823050812				Value Loss: 2.550811879355146				Entropy: 1.1479446827782886			
+Approx KL: 0.00189	Clip Fraction: 0.0173	SPS: 268.7
+Loss: 1.0823345614746975				Surrogate Loss: -0.0014631306504899197				Value Loss: 2.194969002695801				Entropy: 1.3686805017223738			
+Approx KL: 0.00086	Clip Fraction: 0.0078	SPS: 268.8
+[2773/10000][52120116/53007489]  episode: 7011  episode reward: 1058.0  episode len: 13306
+Loss: 1.0323487938974802				Surrogate Loss: -0.001965485063101107				Value Loss: 2.0941955174381084				Entropy: 1.2783478245172426			
+Approx KL: 0.00099	Clip Fraction: 0.0088	SPS: 268.9
+[6085/10000][52133427/53007489]  episode: 7012  episode reward: 1083.0  episode len: 13312
+Loss: 0.9556985241209763				Surrogate Loss: -0.0015418447772036156				Value Loss: 1.9392625680596771				Entropy: 1.2390913030642892			
+Approx KL: 0.00076	Clip Fraction: 0.0061	SPS: 269.0
+Loss: 1.0603991301931095				Surrogate Loss: -0.0030310136201111273				Value Loss: 2.151601576405628				Entropy: 1.2370645865483683			
+Approx KL: 0.00113	Clip Fraction: 0.0095	SPS: 269.1
+[2719/10000][52150060/53007489]  episode: 7013  episode reward: 1302.0  episode len: 16634
+Loss: 1.6589098875308965				Surrogate Loss: -0.0013771251316827362				Value Loss: 3.3434487600426626				Entropy: 1.1437371393616935			
+Approx KL: 0.00125	Clip Fraction: 0.0104	SPS: 269.2
+[6031/10000][52163371/53007489]  episode: 7014  episode reward: 1090.0  episode len: 13312
+Loss: 1.1333244698452691				Surrogate Loss: -0.0012550171953667425				Value Loss: 2.2928199798966244				Entropy: 1.1830502439579007			
+Approx KL: 0.00226	Clip Fraction: 0.0215	SPS: 269.3
+Loss: 1.1501565732112096				Surrogate Loss: -0.0008426269002495559				Value Loss: 2.3256491033986313				Entropy: 1.1825352514934604			
+Approx KL: 0.00224	Clip Fraction: 0.0245	SPS: 269.4
+[2669/10000][52180008/53007489]  episode: 7015  episode reward: 1308.0  episode len: 16638
+Loss: 1.1699956748739537				Surrogate Loss: -0.0009427622761171492				Value Loss: 2.3673171127649666				Entropy: 1.2720120038458027			
+Approx KL: 0.00248	Clip Fraction: 0.0267	SPS: 269.5
+[9304/10000][52196642/53007489]  episode: 7016  episode reward: 1390.0  episode len: 16635
+Loss: 1.5567270422397825				Surrogate Loss: -0.0009195408460250032				Value Loss: 3.134999686741957				Entropy: 0.9853264900442077			
+Approx KL: 0.00164	Clip Fraction: 0.0153	SPS: 269.5
+Loss: 1.217185875006609				Surrogate Loss: -0.002046756032694164				Value Loss: 2.4632851768881086				Entropy: 1.240995949822209			
+Approx KL: 0.00109	Clip Fraction: 0.0094	SPS: 269.6
+[9266/10000][52216603/53007489]  episode: 7017  episode reward: 1695.0  episode len: 19962
+Loss: 1.0702299372435917				Surrogate Loss: -0.0024740707972093685				Value Loss: 2.164627303141083				Entropy: 0.9609645634685878			
+Approx KL: 0.00127	Clip Fraction: 0.0113	SPS: 269.7
+Loss: 1.106922126870829				Surrogate Loss: -0.0014906093311077252				Value Loss: 2.241428098474289				Entropy: 1.2301315421750627			
+Approx KL: 0.00086	Clip Fraction: 0.0062	SPS: 269.8
+[5906/10000][52233242/53007489]  episode: 7018  episode reward: 1390.0  episode len: 16640
+Loss: 0.982144147216909				Surrogate Loss: -0.001524010759069379				Value Loss: 1.9900832053464226				Entropy: 1.1373444661944783			
+Approx KL: 0.00117	Clip Fraction: 0.0102	SPS: 269.9
+[9215/10000][52246550/53007489]  episode: 7019  episode reward: 1065.0  episode len: 13309
+Loss: 1.1933316141170225				Surrogate Loss: -0.001426086703586939				Value Loss: 2.4137589699820725				Entropy: 1.2121786211869243			
+Approx KL: 0.00139	Clip Fraction: 0.0138	SPS: 270.0
+Loss: 1.0161427030131884				Surrogate Loss: -0.0026450978005925275				Value Loss: 2.0631396416813157				Entropy: 1.2782021644076766			
+Approx KL: 0.00138	Clip Fraction: 0.0126	SPS: 270.0
+[5854/10000][52263188/53007489]  episode: 7020  episode reward: 1308.0  episode len: 16639
+Loss: 1.1974063300848852				Surrogate Loss: -0.0010411297942136048				Value Loss: 2.41986993926787				Entropy: 1.14875079376184			
+Approx KL: 0.00107	Clip Fraction: 0.0097	SPS: 270.1
+Loss: 1.496249814063529				Surrogate Loss: -0.0004490249278861459				Value Loss: 3.0149435078454303				Entropy: 1.0772910796151096			
+Approx KL: 0.00158	Clip Fraction: 0.0151	SPS: 270.2
+[2490/10000][52279823/53007489]  episode: 7021  episode reward: 1398.0  episode len: 16636
+Loss: 1.1228680260171515				Surrogate Loss: -0.0013498344111363726				Value Loss: 2.271931145848112				Entropy: 1.17477144748867			
+Approx KL: 0.00157	Clip Fraction: 0.0141	SPS: 270.3
+[9123/10000][52296455/53007489]  episode: 7022  episode reward: 1339.0  episode len: 16633
+Loss: 1.280048719296127				Surrogate Loss: -0.00125664733141425				Value Loss: 2.584548576936195				Entropy: 1.0968918507916134			
+Approx KL: 0.00159	Clip Fraction: 0.0163	SPS: 270.3
+Loss: 0.7072092375171302				Surrogate Loss: -0.0017303088314827482				Value Loss: 1.4458628553993733				Entropy: 1.3991879905205955			
+Approx KL: 0.00191	Clip Fraction: 0.0213	SPS: 270.4
+[5757/10000][52313088/53007489]  episode: 7023  episode reward: 1368.0  episode len: 16634
+Loss: 1.1072702181009397				Surrogate Loss: -0.0013232000192669742				Value Loss: 2.240293512216395				Entropy: 1.1553336320727712			
+Approx KL: 0.00116	Clip Fraction: 0.0103	SPS: 270.5
+Loss: 1.023424044434877				Surrogate Loss: -0.0014905610064894599				Value Loss: 2.074759368436596				Entropy: 1.2465070105575469			
+Approx KL: 0.00144	Clip Fraction: 0.0137	SPS: 270.6
+[5725/10000][52333055/53007489]  episode: 7024  episode reward: 1615.0  episode len: 19968
+Loss: 1.1974404876816196				Surrogate Loss: -0.0013919221219363068				Value Loss: 2.4206637621429197				Entropy: 1.1499469259391866			
+Approx KL: 0.00083	Clip Fraction: 0.0066	SPS: 270.6
+Loss: 1.5602708430732617				Surrogate Loss: -0.0013372891712606385				Value Loss: 3.1441189956171223				Entropy: 1.0451365683027976			
+Approx KL: 0.00072	Clip Fraction: 0.0045	SPS: 270.7
+[2363/10000][52349692/53007489]  episode: 7025  episode reward: 1399.0  episode len: 16638
+Loss: 1.0365349124712753				Surrogate Loss: -0.0013958445876802535				Value Loss: 2.099531154735992				Entropy: 1.1834818412601071			
+Approx KL: 0.00139	Clip Fraction: 0.0134	SPS: 270.8
+[5673/10000][52363001/53007489]  episode: 7026  episode reward: 1084.0  episode len: 13310
+Loss: 1.0230484210890471				Surrogate Loss: -0.001768743387799226				Value Loss: 2.074046827903487				Entropy: 1.2206252094388312			
+Approx KL: 0.00092	Clip Fraction: 0.0079	SPS: 270.9
+Loss: 1.0826678772980445				Surrogate Loss: -0.0019666373856786885				Value Loss: 2.193529191617899				Entropy: 1.2130077139010302			
+Approx KL: 0.00113	Clip Fraction: 0.0114	SPS: 270.9
+[2310/10000][52379637/53007489]  episode: 7027  episode reward: 1332.0  episode len: 16637
+Loss: 1.27279924776665				Surrogate Loss: -0.000671829626934167				Value Loss: 2.57161768618049				Entropy: 1.233776636784159			
+Approx KL: 0.00259	Clip Fraction: 0.0278	SPS: 271.0
+[8946/10000][52396272/53007489]  episode: 7028  episode reward: 1278.0  episode len: 16636
+Loss: 1.6747936201906828				Surrogate Loss: -0.0024608191789310717				Value Loss: 3.375247628194408				Entropy: 1.0369374785512797			
+Approx KL: 0.00231	Clip Fraction: 0.0217	SPS: 271.1
+Loss: 0.9759622649696374				Surrogate Loss: 0.0004151912230007299				Value Loss: 1.9777686904892007				Entropy: 1.3337271596754492			
+Approx KL: 0.00367	Clip Fraction: 0.0394	SPS: 271.2
+[2252/10000][52409577/53007489]  episode: 7029  episode reward: 1087.0  episode len: 13306
+Loss: 0.9918227131602158				Surrogate Loss: -0.0016681714497469463				Value Loss: 2.0119531147094722				Entropy: 1.248567236941519			
+Approx KL: 0.00122	Clip Fraction: 0.0122	SPS: 271.2
+[5559/10000][52422883/53007489]  episode: 7030  episode reward: 1056.0  episode len: 13307
+Loss: 1.1402941831314661				Surrogate Loss: -0.0016657802269955558				Value Loss: 2.308092044542641				Entropy: 1.2086059293404225			
+Approx KL: 0.00108	Clip Fraction: 0.0096	SPS: 271.3
+Loss: 1.326794023883244				Surrogate Loss: -0.0007393252608124818				Value Loss: 2.6784179651687734				Entropy: 1.1675635805495583			
+Approx KL: 0.00143	Clip Fraction: 0.0140	SPS: 271.4
+[2194/10000][52439517/53007489]  episode: 7031  episode reward: 1339.0  episode len: 16635
+Loss: 1.0226529756862437				Surrogate Loss: -0.0020202534386319876				Value Loss: 2.0741865054194175				Entropy: 1.2420021587952659			
+Approx KL: 0.00136	Clip Fraction: 0.0118	SPS: 271.4
+[8828/10000][52456150/53007489]  episode: 7032  episode reward: 1259.0  episode len: 16634
+Loss: 1.3813074915345172				Surrogate Loss: -0.001919587723902311				Value Loss: 2.788447045767398				Entropy: 1.0996448382803414			
+Approx KL: 0.00167	Clip Fraction: 0.0165	SPS: 271.5
+Loss: 0.9955996520561907				Surrogate Loss: -0.000920274389956012				Value Loss: 2.0189696479273778				Entropy: 1.29648964235333			
+Approx KL: 0.00065	Clip Fraction: 0.0038	SPS: 271.6
+[8791/10000][52476112/53007489]  episode: 7033  episode reward: 1684.0  episode len: 19963
+Loss: 1.1819693998154728				Surrogate Loss: -0.0019047638117573205				Value Loss: 2.3865780991306718				Entropy: 0.941488642844512			
+Approx KL: 0.00151	Clip Fraction: 0.0143	SPS: 271.8
+Loss: 0.8256258898720991				Surrogate Loss: -0.0018886763321720025				Value Loss: 1.6818017452590286				Entropy: 1.338631072665502			
+Approx KL: 0.00096	Clip Fraction: 0.0091	SPS: 272.0
+[5430/10000][52492750/53007489]  episode: 7034  episode reward: 1364.0  episode len: 16639
+Loss: 1.2289272153685027				Surrogate Loss: -0.0014013332701189366				Value Loss: 2.483682802978878				Entropy: 1.151285270212027			
+Approx KL: 0.00241	Clip Fraction: 0.0246	SPS: 272.1
+Loss: 1.007081749921407				Surrogate Loss: -0.0003044385718863805				Value Loss: 2.0389039411541825				Entropy: 1.2065780941690245			
+Approx KL: 0.00254	Clip Fraction: 0.0286	SPS: 272.2
+[5394/10000][52512713/53007489]  episode: 7035  episode reward: 1661.0  episode len: 19964
+==============================================
+Evaluating...
+episode 1 reward: 1389.0
+episode 2 reward: 1092.0
+episode 3 reward: 1065.0
+average score: 1182.0
+==============================================
+Loss: 1.2640838861262145				Surrogate Loss: -0.001861641220268208				Value Loss: 2.553975891498443				Entropy: 1.1042423973578135			
+Approx KL: 0.00156	Clip Fraction: 0.0149	SPS: 268.8
+[8701/10000][52526019/53007489]  episode: 7036  episode reward: 1090.0  episode len: 13307
+Loss: 1.5002974358335792				Surrogate Loss: -0.0011490047442736812				Value Loss: 3.0246077830153153				Entropy: 1.0857452366477236			
+Approx KL: 0.00123	Clip Fraction: 0.0128	SPS: 268.9
+Loss: 1.2638108351002422				Surrogate Loss: -0.0020252448932664047				Value Loss: 2.556445612936577				Entropy: 1.238672830850222			
+Approx KL: 0.00152	Clip Fraction: 0.0153	SPS: 269.0
+[5338/10000][52542655/53007489]  episode: 7037  episode reward: 1377.0  episode len: 16637
+Loss: 1.0036869235412904				Surrogate Loss: -0.00241986698171871				Value Loss: 2.034792308360965				Entropy: 1.1289358410553476			
+Approx KL: 0.00099	Clip Fraction: 0.0081	SPS: 269.1
+Loss: 1.5311990774065718				Surrogate Loss: -0.002341415766863932				Value Loss: 3.0872691978939932				Entropy: 1.0094106751881338			
+Approx KL: 0.00113	Clip Fraction: 0.0100	SPS: 269.1
+[5300/10000][52562616/53007489]  episode: 7038  episode reward: 1665.0  episode len: 19962
+Loss: 0.9851756806739475				Surrogate Loss: -3.3399302032116985e-05				Value Loss: 1.9928742673607807				Entropy: 1.1228054008013906			
+Approx KL: 0.00357	Clip Fraction: 0.0383	SPS: 269.2
+Loss: 0.9424645935449907				Surrogate Loss: -0.0021095767612742725				Value Loss: 1.9125131002296027				Entropy: 1.1682378601982895			
+Approx KL: 0.00164	Clip Fraction: 0.0161	SPS: 269.3
+[1939/10000][52579254/53007489]  episode: 7039  episode reward: 1389.0  episode len: 16639
+Loss: 0.8638080068707589				Surrogate Loss: -0.002762458428187543				Value Loss: 1.7582478067164875				Entropy: 1.255344159462781			
+Approx KL: 0.00129	Clip Fraction: 0.0117	SPS: 269.4
+[8572/10000][52595886/53007489]  episode: 7040  episode reward: 1372.0  episode len: 16633
+Loss: 1.324238673744366				Surrogate Loss: -0.0009690787157726204				Value Loss: 2.670943470418817				Entropy: 1.0263985405463705			
+Approx KL: 0.00106	Clip Fraction: 0.0094	SPS: 269.4
+Loss: 0.9978157779694903				Surrogate Loss: -0.0019843130495698228				Value Loss: 2.026114552771454				Entropy: 1.3257185240368794			
+Approx KL: 0.00131	Clip Fraction: 0.0123	SPS: 269.5
+[5211/10000][52612524/53007489]  episode: 7041  episode reward: 1348.0  episode len: 16639
+Loss: 1.1524637479788837				Surrogate Loss: -0.0024992005536072738				Value Loss: 2.3324484145593325				Entropy: 1.1261257674307954			
+Approx KL: 0.00148	Clip Fraction: 0.0142	SPS: 269.6
+Loss: 0.716215962885555				Surrogate Loss: -0.0029171310348516406				Value Loss: 1.463189076315019				Entropy: 1.2461438946878536			
+Approx KL: 0.00166	Clip Fraction: 0.0163	SPS: 269.6
+[1845/10000][52629157/53007489]  episode: 7042  episode reward: 1388.0  episode len: 16634
+Loss: 1.0711445981735848				Surrogate Loss: -0.0021266324101942677				Value Loss: 2.1702941693461377				Entropy: 1.1875854654056142			
+Approx KL: 0.00069	Clip Fraction: 0.0053	SPS: 269.7
+[8483/10000][52645794/53007489]  episode: 7043  episode reward: 1394.0  episode len: 16638
+Loss: 1.0948759691129095				Surrogate Loss: -0.0019468388907633604				Value Loss: 2.214839012591836				Entropy: 1.0596698663830697			
+Approx KL: 0.00213	Clip Fraction: 0.0231	SPS: 269.8
+Loss: 0.9736679278612856				Surrogate Loss: -0.0014525728128535376				Value Loss: 1.97557031996215				Entropy: 1.2664660681205766			
+Approx KL: 0.00124	Clip Fraction: 0.0120	SPS: 269.9
+[5122/10000][52662432/53007489]  episode: 7044  episode reward: 1271.0  episode len: 16639
+Loss: 1.3858377323497957				Surrogate Loss: -0.0023070554346514564				Value Loss: 2.7991715518154234				Entropy: 1.1440989127442156			
+Approx KL: 0.00144	Clip Fraction: 0.0137	SPS: 269.9
+Loss: 1.3150090549517544				Surrogate Loss: -0.000789463127998777				Value Loss: 2.6539258724152384				Entropy: 1.1164415061026107			
+Approx KL: 0.00091	Clip Fraction: 0.0069	SPS: 270.0
+[1757/10000][52679066/53007489]  episode: 7045  episode reward: 1382.0  episode len: 16635
+Loss: 0.8779610225422042				Surrogate Loss: -0.001924659028607324				Value Loss: 1.7838846357407485				Entropy: 1.205663664741362			
+Approx KL: 0.00124	Clip Fraction: 0.0116	SPS: 270.1
+Loss: 0.9103401146615925				Surrogate Loss: -0.0017012876160821379				Value Loss: 1.8463132226518504				Entropy: 1.1115211445010078			
+Approx KL: 0.00140	Clip Fraction: 0.0133	SPS: 270.1
+[5053/10000][52702361/53007489]  episode: 7046  episode reward: 1918.0  episode len: 23296
+Loss: 1.1227037705237437				Surrogate Loss: -0.0015079822013305683				Value Loss: 2.270384299082902				Entropy: 1.0980392439948463			
+Approx KL: 0.00191	Clip Fraction: 0.0187	SPS: 270.2
+Loss: 1.2819554148370984				Surrogate Loss: -0.0032134819872292183				Value Loss: 2.594015657892685				Entropy: 1.1838927117474536			
+Approx KL: 0.00172	Clip Fraction: 0.0181	SPS: 270.3
+[1691/10000][52718998/53007489]  episode: 7047  episode reward: 1377.0  episode len: 16638
+Loss: 1.0558636420021483				Surrogate Loss: -0.0025126428728735597				Value Loss: 2.141156534161606				Entropy: 1.2201982693448366			
+Approx KL: 0.00122	Clip Fraction: 0.0121	SPS: 270.3
+Loss: 0.889621985445792				Surrogate Loss: -0.0027545299291995857				Value Loss: 1.8059400521590654				Entropy: 1.0593515201216188			
+Approx KL: 0.00145	Clip Fraction: 0.0144	SPS: 270.4
+[1659/10000][52738965/53007489]  episode: 7048  episode reward: 1670.0  episode len: 19968
+Loss: 1.2091964784566234				Surrogate Loss: -0.0011336070040573912				Value Loss: 2.444951808918262				Entropy: 1.2145817245285233			
+Approx KL: 0.00131	Clip Fraction: 0.0122	SPS: 270.5
+[4964/10000][52752269/53007489]  episode: 7049  episode reward: 1043.0  episode len: 13305
+Loss: 1.2762168924676098				Surrogate Loss: -0.0019533449601632806				Value Loss: 2.5801371852174877				Entropy: 1.1898352520847364			
+Approx KL: 0.00106	Clip Fraction: 0.0097	SPS: 270.5
+[8269/10000][52765573/53007489]  episode: 7050  episode reward: 1074.0  episode len: 13305
+Loss: 1.3682115575990386				Surrogate Loss: -0.0014749718776000255				Value Loss: 2.7622934888285795				Entropy: 1.146021360409212			
+Approx KL: 0.00127	Clip Fraction: 0.0118	SPS: 270.6
+Loss: 1.1124541429054022				Surrogate Loss: -0.0015277297034092285				Value Loss: 2.253372403003105				Entropy: 1.2704327786943292			
+Approx KL: 0.00097	Clip Fraction: 0.0085	SPS: 270.7
+[8230/10000][52785533/53007489]  episode: 7051  episode reward: 1692.0  episode len: 19961
+Loss: 1.0058659639381018				Surrogate Loss: -0.0012799561417294414				Value Loss: 2.0338481002641404				Entropy: 0.977812780987456			
+Approx KL: 0.00201	Clip Fraction: 0.0208	SPS: 270.7
+Loss: 0.8691034646191036				Surrogate Loss: -0.0014808778513205308				Value Loss: 1.767875545386275				Entropy: 1.3353428462553787			
+Approx KL: 0.00070	Clip Fraction: 0.0052	SPS: 270.8
+[4864/10000][52802166/53007489]  episode: 7052  episode reward: 1386.0  episode len: 16634
+Loss: 1.3357969289602205				Surrogate Loss: -0.0006167280040891				Value Loss: 2.6957933098478497				Entropy: 1.1482999441674944			
+Approx KL: 0.00126	Clip Fraction: 0.0113	SPS: 270.9
+Loss: 1.102702237878831				Surrogate Loss: -0.0015931865826504285				Value Loss: 2.231386738073542				Entropy: 1.1397941725522398			
+Approx KL: 0.00122	Clip Fraction: 0.0114	SPS: 270.9
+[4826/10000][52822127/53007489]  episode: 7053  episode reward: 1627.0  episode len: 19962
+Loss: 1.0330818526292807				Surrogate Loss: -0.002197436799935856				Value Loss: 2.0937830987396295				Entropy: 1.1612260064460171			
+Approx KL: 0.00174	Clip Fraction: 0.0165	SPS: 271.0
+[8133/10000][52835433/53007489]  episode: 7054  episode reward: 1087.0  episode len: 13307
+Loss: 1.4590488267654778				Surrogate Loss: 1.4150548524323166e-05				Value Loss: 2.9408781508416575				Entropy: 1.1404403434671435			
+Approx KL: 0.00224	Clip Fraction: 0.0233	SPS: 271.1
+Loss: 1.111836937697918				Surrogate Loss: -0.0008068384031548488				Value Loss: 2.250908197632997				Entropy: 1.2810322460707055			
+Approx KL: 0.00087	Clip Fraction: 0.0076	SPS: 271.1
+Loss: 1.0915497167159391				Surrogate Loss: -0.0014764223077627686				Value Loss: 2.2069213947164124				Entropy: 1.0434558037895842			
+Approx KL: 0.00135	Clip Fraction: 0.0129	SPS: 271.2
+[1428/10000][52858727/53007489]  episode: 7055  episode reward: 1868.0  episode len: 23295
+Loss: 1.2284799797757775				Surrogate Loss: -0.0016223719052716678				Value Loss: 2.4860985827392437				Entropy: 1.2946935474280743			
+Approx KL: 0.00115	Clip Fraction: 0.0102	SPS: 271.3
+Loss: 1.0833140211770975				Surrogate Loss: -0.0014086871295671108				Value Loss: 2.189316223929422				Entropy: 0.9935398036711354			
+Approx KL: 0.00279	Clip Fraction: 0.0291	SPS: 271.3
+[1392/10000][52878690/53007489]  episode: 7056  episode reward: 1690.0  episode len: 19964
+Loss: 0.9047299450246163				Surrogate Loss: -0.0010569203107183404				Value Loss: 1.8363914034654512				Entropy: 1.240883669808611			
+Approx KL: 0.00097	Clip Fraction: 0.0084	SPS: 271.4
+[4701/10000][52891998/53007489]  episode: 7057  episode reward: 1043.0  episode len: 13309
+Loss: 1.2371422682179918				Surrogate Loss: -0.0014086215597699672				Value Loss: 2.5023936905136726				Entropy: 1.2645953316127945			
+Approx KL: 0.00083	Clip Fraction: 0.0064	SPS: 271.5
+[8007/10000][52905303/53007489]  episode: 7058  episode reward: 1099.0  episode len: 13306
+Loss: 1.2015209672527274				Surrogate Loss: -0.0015349965490723042				Value Loss: 2.4294487429221894				Entropy: 1.166841022667908			
+Approx KL: 0.00121	Clip Fraction: 0.0114	SPS: 271.5
+Loss: 1.2835066959848114				Surrogate Loss: -0.0018648355168318378				Value Loss: 2.596778167030776				Entropy: 1.3017556868566154			
+Approx KL: 0.00098	Clip Fraction: 0.0084	SPS: 271.6
+[1315/10000][52918610/53007489]  episode: 7059  episode reward: 1089.0  episode len: 13308
+Loss: 1.2369700152684582				Surrogate Loss: -0.00031670707153713283				Value Loss: 2.499594674426298				Entropy: 1.2510613557827976			
+Approx KL: 0.00201	Clip Fraction: 0.0184	SPS: 271.6
+[4623/10000][52931917/53007489]  episode: 7060  episode reward: 1097.0  episode len: 13308
+Loss: 1.2811994113761347				Surrogate Loss: -0.0019496019998929957				Value Loss: 2.589451540779267				Entropy: 1.1576756600444678			
+Approx KL: 0.00114	Clip Fraction: 0.0101	SPS: 271.7
+Loss: 1.2655496776506292				Surrogate Loss: -0.0015233632366920306				Value Loss: 2.556992451621141				Entropy: 1.1423186615819436			
+Approx KL: 0.00109	Clip Fraction: 0.0087	SPS: 271.8
+[7914/10000][52955207/53007489]  episode: 7061  episode reward: 1939.0  episode len: 23291
+Loss: 1.3321955454115018				Surrogate Loss: -0.0012036608640446365				Value Loss: 2.686736015932709				Entropy: 0.9968794887362022			
+Approx KL: 0.00289	Clip Fraction: 0.0286	SPS: 271.8
+Loss: 1.2126196910967182				Surrogate Loss: -0.0011508933595580772				Value Loss: 2.4536798997288094				Entropy: 1.3069363677362416			
+Approx KL: 0.00176	Clip Fraction: 0.0181	SPS: 272.0
+[1224/10000][52968516/53007489]  episode: 7062  episode reward: 1056.0  episode len: 13310
+Loss: 1.2359960682388849				Surrogate Loss: -0.0015226728224091428				Value Loss: 2.5011932725881274				Entropy: 1.3077893448010698			
+Approx KL: 0.00171	Clip Fraction: 0.0184	SPS: 272.1
+Loss: 1.6796910048401608				Surrogate Loss: -0.001369990272449096				Value Loss: 3.382724761140397				Entropy: 1.030138339854156			
+Approx KL: 0.00164	Clip Fraction: 0.0157	SPS: 272.3
+[1185/10000][52988476/53007489]  episode: 7063  episode reward: 1569.0  episode len: 19961
+Loss: 1.1897491543434202				Surrogate Loss: 0.0008188189945736984				Value Loss: 2.4031911281378298				Entropy: 1.2665230506399314			
+Approx KL: 0.00197	Clip Fraction: 0.0217	SPS: 272.4
+[4492/10000][53001782/53007489]  episode: 7064  episode reward: 1072.0  episode len: 13307
+Loss: 1.0043124821978922				Surrogate Loss: -0.0011428001069254453				Value Loss: 2.0369016803885445				Entropy: 1.2995561712669776			
+Approx KL: 0.00170	Clip Fraction: 0.0170	SPS: 272.4
+Loss: 1.184223754924618				Surrogate Loss: -0.0014063274244087917				Value Loss: 2.395722050869356				Entropy: 1.2230948446137393			
+Approx KL: 0.00273	Clip Fraction: 0.0275	SPS: 272.5
+[1128/10000][53018417/53007489]  episode: 7065  episode reward: 1351.0  episode len: 16636
+==============================================
+Evaluating...
+episode 1 reward: 1927.0
+episode 2 reward: 1049.0
+episode 3 reward: 1679.0
+average score: 1551.6666666666667
+==============================================
+New best score 1551.6666666666667 at step 53018417, saved best.pth
+### [supervisor] 2026-10-25 22:51:22 python exited with code 0

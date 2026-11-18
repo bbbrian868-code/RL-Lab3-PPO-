@@ -1,0 +1,75 @@
+{
+  "phase": "done",
+  "main": {
+    "pid": 18712
+  },
+  "probes": [
+    {
+      "exp": "Enduro_lr1e-5_from20M",
+      "branch_ckpt": "C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr2.5e-4_cont\\checkpoints\\branch_20M.pt",
+      "branch_step": 20000472,
+      "end_step": 23000472,
+      "status": "done",
+      "pid": 14932,
+      "pre_pid": 15888,
+      "pre_mean": 788.1,
+      "post_ckpt": "C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr1e-5_from20M\\checkpoints\\model_23007771_878.pth",
+      "post_pid": 4736,
+      "post_mean": 1114.75
+    },
+    {
+      "exp": "Enduro_lr1e-5_from35M",
+      "branch_ckpt": "C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr2.5e-4_cont\\checkpoints\\branch_35M.pt",
+      "branch_step": 35008820,
+      "end_step": 38008820,
+      "status": "done",
+      "pid": 19976,
+      "pre_pid": 956,
+      "pre_mean": 1008.25,
+      "post_ckpt": "C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr1e-5_from35M\\checkpoints\\model_38009669_1269.pth",
+      "post_pid": 17464,
+      "post_mean": 1214.9
+    },
+    {
+      "exp": "Enduro_lr1e-5_from50M",
+      "branch_ckpt": "C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr2.5e-4_cont\\checkpoints\\branch_50M.pt",
+      "branch_step": 50007489,
+      "end_step": 53007489,
+      "status": "done",
+      "pid": 18364,
+      "pre_pid": 2408,
+      "pre_mean": 796.4,
+      "post_ckpt": "C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr1e-5_from50M\\checkpoints\\model_53018417_1551.pth",
+      "post_pid": 16692,
+      "post_mean": 1551.85
+    },
+    {
+      "exp": "Enduro_lr1e-5_from65M",
+      "branch_ckpt": "C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr2.5e-4_cont\\checkpoints\\branch_65M.pt",
+      "branch_step": 65006308,
+      "end_step": 68006308,
+      "status": "done",
+      "pid": 15460,
+      "pre_pid": 19500,
+      "pre_mean": 1367.45,
+      "post_ckpt": "C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr1e-5_from65M\\checkpoints\\model_68024013_1554.pth",
+      "post_pid": 10220,
+      "post_mean": 1585.1
+    }
+  ],
+  "next_branch": 80000000,
+  "finish": {
+    "exp1": "Enduro_lr1e-5_from65M",
+    "end1": 75006308,
+    "pid1": 17052,
+    "exp2": "Enduro_lr1e-5_from65M_then_lr1e-6",
+    "end2": 77825749,
+    "pid2": 2952,
+    "final1": "C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr1e-5_from65M\\checkpoints\\model_75017207_1756.pth",
+    "final2": "C:\\Users\\User\\Desktop\\RL_Lab3_PPO\\runs\\Enduro_lr1e-5_from65M_then_lr1e-6\\checkpoints\\model_77830590_1533.pth",
+    "sweep1": 7176,
+    "sweep2": 16672,
+    "mean1": 1844.6,
+    "mean2": 1920.25
+  }
+}

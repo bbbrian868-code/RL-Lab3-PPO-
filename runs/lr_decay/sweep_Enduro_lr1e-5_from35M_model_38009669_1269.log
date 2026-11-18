@@ -1,0 +1,72 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
+[Powered by Stella]
+Loaded C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr1e-5_from35M\checkpoints\model_38009669_1269.pth
+--- seed 0
+Episode: 1	Length: 13307	Total reward: 1092.00
+--- seed 1
+Episode: 1	Length: 13311	Total reward: 1032.00
+--- seed 2
+Episode: 1	Length: 13308	Total reward: 995.00
+--- seed 3
+Episode: 1	Length: 16634	Total reward: 1383.00
+--- seed 4
+Episode: 1	Length: 16640	Total reward: 1313.00
+--- seed 5
+Episode: 1	Length: 16633	Total reward: 1394.00
+--- seed 6
+Episode: 1	Length: 16635	Total reward: 1294.00
+--- seed 7
+Episode: 1	Length: 16637	Total reward: 1386.00
+--- seed 8
+Episode: 1	Length: 19967	Total reward: 1637.00
+--- seed 9
+Episode: 1	Length: 13306	Total reward: 1081.00
+--- seed 10
+Episode: 1	Length: 16634	Total reward: 1382.00
+--- seed 11
+Episode: 1	Length: 13310	Total reward: 1080.00
+--- seed 12
+Episode: 1	Length: 13309	Total reward: 1092.00
+--- seed 13
+Episode: 1	Length: 13311	Total reward: 1085.00
+--- seed 14
+Episode: 1	Length: 13305	Total reward: 1095.00
+--- seed 15
+Episode: 1	Length: 16634	Total reward: 1394.00
+--- seed 16
+Episode: 1	Length: 13308	Total reward: 1003.00
+--- seed 17
+Episode: 1	Length: 13305	Total reward: 1076.00
+--- seed 18
+Episode: 1	Length: 13307	Total reward: 1096.00
+--- seed 19
+Episode: 1	Length: 16633	Total reward: 1388.00
+
+seed   reward  length day(reward) day(length) points
+   0     1092   13307           4           4     25
+   1     1032   13311           4           4     25
+   2      995   13308           4           4     25
+   3     1383   16634           5           5     30
+   4     1313   16640           5           5     30
+   5     1394   16633           5           5     30
+   6     1294   16635           5           5     30
+   7     1386   16637           5           5     30
+   8     1637   19967           6           6     35
+   9     1081   13306           4           4     25
+  10     1382   16634           5           5     30
+  11     1080   13310           4           4     25
+  12     1092   13309           4           4     25
+  13     1085   13311           4           4     25
+  14     1095   13305           4           4     25
+  15     1394   16634           5           5     30
+  16     1003   13308           4           4     25
+  17     1076   13305           4           4     25
+  18     1096   13307           4           4     25
+  19     1388   16633           5           5     30
+
+mean reward: 1214.9   best seed: 8 (reward 1637, day 6)
+saved C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr1e-5_from35M\seed_sweep_model_38009669_1269_greedy.csv

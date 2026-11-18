@@ -1,0 +1,9 @@
+# 2026-10-27 19:07:37  (cwd: src)
+# python test.py --exp-name Enduro_lr1e-5_from65M_then_lr1e-6 --ckpt ..\runs\Enduro_lr1e-5_from65M_then_lr1e-6\checkpoints\model_77830590_1533.pth --episodes 5 --seed 12
+Loaded ..\runs\Enduro_lr1e-5_from65M_then_lr1e-6\checkpoints\model_77830590_1533.pth
+Episode: 1	Length: 26997	Total reward: 2339.00
+Episode: 2	Length: 19963	Total reward: 1687.00
+Episode: 3	Length: 23291	Total reward: 1986.00
+Episode: 4	Length: 19968	Total reward: 1656.00
+Episode: 5	Length: 23290	Total reward: 1884.00
+average score: 1910.4

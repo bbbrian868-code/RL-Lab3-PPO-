@@ -1,0 +1,13 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
+[Powered by Stella]
+Loaded C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_release\checkpoints\best.pth
+Episode: 1	Length: 9979	Total reward: 783.00
+Episode: 2	Length: 9984	Total reward: 753.00
+Episode: 3	Length: 6656	Total reward: 496.00
+Episode: 4	Length: 9977	Total reward: 630.00
+Episode: 5	Length: 6653	Total reward: 477.00
+average score: 627.8

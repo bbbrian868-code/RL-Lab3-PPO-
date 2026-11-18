@@ -1,0 +1,30 @@
+[2026-10-24 16:44:36] scheduler start (pid 6260)
+[2026-10-24 16:44:36] launch training Enduro_lr2.5e-4_cont: steps=200000000 lr=2.5e-4 init=C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr2.5e-4_cont\checkpoints\branch_20M.pt pid=18712
+[2026-10-24 16:44:36] launch training Enduro_lr1e-5_from20M: steps=23000472 lr=1e-5 init=C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr2.5e-4_cont\checkpoints\branch_20M.pt pid=14932
+[2026-10-24 16:44:36] launch sweep Enduro_lr2.5e-4_cont branch_20M.pt seeds 0-19 pid=15888
+[2026-10-24 19:48:36] launch sweep Enduro_lr1e-5_from20M model_23007771_878.pth seeds 0-19 pid=4736
+[2026-10-24 20:00:36] probe Enduro_lr1e-5_from20M done: post mean 1114.8
+[2026-10-25 06:14:36] snapshot branch_35M.pt at step 35008820
+[2026-10-25 06:14:36] launch training Enduro_lr1e-5_from35M: steps=38008820 lr=1e-5 init=C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr2.5e-4_cont\checkpoints\branch_35M.pt pid=19976
+[2026-10-25 06:14:36] launch sweep Enduro_lr2.5e-4_cont branch_35M.pt seeds 0-19 pid=956
+[2026-10-25 09:20:36] launch sweep Enduro_lr1e-5_from35M model_38009669_1269.pth seeds 0-19 pid=17464
+[2026-10-25 09:34:36] probe Enduro_lr1e-5_from35M done: post mean 1214.9
+[2026-10-25 19:44:37] snapshot branch_50M.pt at step 50007489
+[2026-10-25 19:44:37] launch training Enduro_lr1e-5_from50M: steps=53007489 lr=1e-5 init=C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr2.5e-4_cont\checkpoints\branch_50M.pt pid=18364
+[2026-10-25 19:44:37] launch sweep Enduro_lr2.5e-4_cont branch_50M.pt seeds 0-19 pid=2408
+[2026-10-25 22:52:38] launch sweep Enduro_lr1e-5_from50M model_53018417_1551.pth seeds 0-19 pid=16692
+[2026-10-25 23:08:38] probe Enduro_lr1e-5_from50M done: post mean 1551.8
+[2026-10-26 09:30:38] snapshot branch_65M.pt at step 65006308
+[2026-10-26 09:30:38] launch training Enduro_lr1e-5_from65M: steps=68006308 lr=1e-5 init=C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr2.5e-4_cont\checkpoints\branch_65M.pt pid=15460
+[2026-10-26 09:30:38] launch sweep Enduro_lr2.5e-4_cont branch_65M.pt seeds 0-19 pid=19500
+[2026-10-26 12:42:38] launch sweep Enduro_lr1e-5_from65M model_68024013_1554.pth seeds 0-19 pid=10220
+[2026-10-26 12:58:38] probe Enduro_lr1e-5_from65M done: post mean 1585.1
+[2026-10-26 12:58:38] stop main line: gain 33.2 < 100.0
+[2026-10-26 12:58:38] stopped Enduro_lr2.5e-4_cont (pid 18712)
+[2026-10-26 12:58:38] best probe Enduro_lr1e-5_from65M (mean 1585.1); extend lr 1e-5 to branch +10000000
+[2026-10-26 12:58:38] launch training Enduro_lr1e-5_from65M: steps=75006308 lr=1e-5 init=- pid=17052
+[2026-10-26 19:24:39] launch training Enduro_lr1e-5_from65M_then_lr1e-6: steps=77825749 lr=1e-6 init=C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr1e-5_from65M\checkpoints\last.pt pid=2952
+[2026-10-26 22:14:39] launch sweep Enduro_lr1e-5_from65M model_75017207_1756.pth seeds 0-19 pid=7176
+[2026-10-26 22:14:39] launch sweep Enduro_lr1e-5_from65M_then_lr1e-6 model_77830590_1533.pth seeds 0-19 pid=16672
+[2026-10-26 22:34:39] FINAL seed 0-19 mean: Enduro_lr1e-5_from65M 1844.6, Enduro_lr1e-5_from65M_then_lr1e-6 1920.25
+[2026-10-26 22:36:39] all phases done

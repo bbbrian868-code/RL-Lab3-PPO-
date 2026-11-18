@@ -1,0 +1,24 @@
+# Python environment / cache
+.venv/
+__pycache__/
+*.pyc
+
+# Model weights, TensorBoard logs, videos
+*.pth
+*.pt
+events.out.tfevents.*
+runs/**/tb/
+runs/**/tb_backup/
+runs/**/videos/
+*.mp4
+
+# Training control files
+runs/**/checkpoints/DONE
+runs/**/checkpoints/STOPPED_BY_SCHEDULER
+
+# Archives and course handouts
+*.zip
+Lab3-*.pdf
+
+# Demo prep notes (local only)
+DEMO.md

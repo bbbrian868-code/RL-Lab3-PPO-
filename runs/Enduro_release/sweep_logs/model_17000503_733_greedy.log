@@ -1,0 +1,42 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
+[Powered by Stella]
+Loaded ../runs/Enduro_release/checkpoints/model_17000503_733.pth
+--- seed 0
+Episode: 1	Length: 9979	Total reward: 760.00
+--- seed 1
+Episode: 1	Length: 9983	Total reward: 733.00
+--- seed 2
+Episode: 1	Length: 9980	Total reward: 696.00
+--- seed 3
+Episode: 1	Length: 9978	Total reward: 721.00
+--- seed 4
+Episode: 1	Length: 6656	Total reward: 489.00
+--- seed 5
+Episode: 1	Length: 9977	Total reward: 780.00
+--- seed 6
+Episode: 1	Length: 6651	Total reward: 489.00
+--- seed 7
+Episode: 1	Length: 9981	Total reward: 741.00
+--- seed 8
+Episode: 1	Length: 9983	Total reward: 724.00
+--- seed 9
+Episode: 1	Length: 9978	Total reward: 688.00
+
+seed   reward  length day(reward) day(length) points
+   0      760    9979           3           3     20
+   1      733    9983           3           3     20
+   2      696    9980           3           3     20
+   3      721    9978           3           3     20
+   4      489    6656           2           2     10
+   5      780    9977           3           3     20
+   6      489    6651           2           2     10
+   7      741    9981           3           3     20
+   8      724    9983           3           3     20
+   9      688    9978           3           3     20
+
+mean reward: 682.1   best seed: 5 (reward 780, day 3)
+saved C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_release\seed_sweep_model_17000503_733_greedy.csv

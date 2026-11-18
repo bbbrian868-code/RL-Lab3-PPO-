@@ -1,0 +1,5 @@
+probe_exp,branch_ckpt,pre_mean_seed0_9,post_ckpt,post_mean_seed0_9,gain
+Enduro_lr1e-5_from20M,branch_20M.pt,788.1,model_23007771_878.pth,1114.8,326.6
+Enduro_lr1e-5_from35M,branch_35M.pt,1008.2,model_38009669_1269.pth,1214.9,206.7
+Enduro_lr1e-5_from50M,branch_50M.pt,796.4,model_53018417_1551.pth,1551.8,755.4
+Enduro_lr1e-5_from65M,branch_65M.pt,1367.5,model_68024013_1554.pth,1585.1,217.6

@@ -1,0 +1,8 @@
+Loaded ..\runs\Enduro_lr1e-5_from65M_then_lr1e-6\checkpoints\model_77830590_1533.pth
+Moviepy - Building video C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr1e-5_from65M_then_lr1e-6\videos\seed12_greedy-episode-0.mp4.
+Moviepy - Writing video C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr1e-5_from65M_then_lr1e-6\videos\seed12_greedy-episode-0.mp4
+
+Moviepy - Done !
+Moviepy - video ready C:\Users\User\Desktop\RL_Lab3_PPO\runs\Enduro_lr1e-5_from65M_then_lr1e-6\videos\seed12_greedy-episode-0.mp4
+Episode: 1	Length: 26997	Total reward: 2339.00
+average score: 2339.0
